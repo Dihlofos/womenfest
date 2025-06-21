@@ -1,0 +1,98 @@
+.hero {
+
+   &__wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 0px 0px 60px 60px;
+      background: linear-gradient(112deg, #721663 13.05%, #D81A90 53.63%, #F843BF 85.36%);
+      padding-block: 4.4rem 14.1rem;
+      z-index: 2;
+   }
+
+   &__vector-1 {
+      width: 80rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 5;
+   }
+
+   &__vector-2 {
+      width: 100rem;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 5;
+   }
+
+   &__logos {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2.7rem;
+      z-index: 10;
+   }
+
+   &__content {
+      max-width: 125rem;
+      text-align: center;
+      z-index: 10;
+      position: relative;
+   }
+
+   &__title-small  {
+      color: $pink100;
+      font-family: $gotham;
+      font-size: 3.2rem;
+      font-style: normal;
+      line-height: 130%; 
+   }
+
+   &__title-big {
+      color: $white;
+      font-family: $mossport;
+      font-size: 16.1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90%; /* 144.9px */
+      text-transform: uppercase;
+      margin-block: 3rem 6rem;
+   }
+
+   &__title-medium {
+      color: $white;
+      font-family: $gotham;
+      font-size: 4.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+   }
+
+   &__content-pseudo {
+      position: absolute;
+      width: 18.5rem;
+      height: 18.5rem;
+      border-radius: 50%;
+      transform: rotate(-12.346deg);
+      background: linear-gradient(165deg, #F843BF 10.53%, #C9068C 118.91%);
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: $gotham;
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; 
+      top: 39%;
+      right: 20%;
+   }
+}
+
+
+

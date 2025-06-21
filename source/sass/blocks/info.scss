@@ -1,0 +1,121 @@
+.info {
+
+
+   &__wrapper {
+      padding-block: 10rem $section-spacing;
+   }
+
+   &__top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: $white;
+      font-family: $gotham;
+      font-size: 2.4rem;
+      font-style: normal;
+      line-height: 120%; /* 28.8px */
+      margin-bottom: 8.5rem;
+   }
+
+   &__title {
+      max-width: 42.7rem;
+      margin-bottom: 25rem;
+      font-weight: 500;
+   }
+
+   &__description{
+      max-width: 38rem;
+      font-weight: 400;
+   }
+
+   &__features {
+      max-width: 39.5rem;
+      margin-top: 11.5rem;
+   }
+
+   &__features-list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+    
+    &__feature-item {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 12px;
+      font-weight: 400;
+    }
+    
+    &__feature-item::before {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 21px;
+      height: 20px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"><path d="M0.131347 9.99995C8.00952 8.82847 8.96209 7.87771 10.1313 -5.23726e-05C11.3047 7.87771 12.2532 8.82847 20.1313 9.99995C12.2532 11.1714 11.3047 12.1222 10.1354 19.9999C8.96209 12.1222 8.0136 11.1714 0.135432 9.99995L0.131347 9.99995Z" fill="white"/></svg>');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    
+
+
+   
+}
+
+ //highlights
+
+ .info-highlights {
+      position: relative;
+
+      &__image {
+         position: absolute;
+         width: 80rem;
+         bottom: 10rem;
+         right: 50%;
+         transform: translateX(50%);
+         z-index: 10;
+       }
+
+   &__wrapper {
+      position: relative;
+      border-radius: 5rem;
+      border: 1px solid $white;
+      background: linear-gradient(159deg, #28293E 53.24%, #FF57D8 195.03%);
+      padding: 5rem 4rem 7rem 4rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 2rem;
+      z-index: 20;
+   }
+
+   &__item {
+      max-width: 26rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+   }
+
+   &__text,
+   &__accent {
+      color: var(--pink200, #FF83E2);
+      font-family: $mossport;
+      font-size: 3.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+   }
+
+   &__text {
+      color: $white;
+   }
+
+   &__accent {
+      color: $pink200;
+   }
+}

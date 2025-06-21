@@ -1,0 +1,150 @@
+.activities {
+   position: relative;
+
+   &__vector-right {
+      width: 90rem;
+      position: absolute;
+      bottom: 35rem;
+      right: 0;
+      transform: translateX(40%);
+   }
+
+   &__vector-left {
+      width: 80rem;
+      position: absolute;
+      bottom: 40rem;
+      left: 0;
+      transform: translateX(-51%);
+   }
+
+   &__wrapper {
+      position: relative;
+   }
+
+   &__extra-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+      padding-bottom: $section-spacing;
+      z-index: 10;
+   }
+
+   &__buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1.6rem;
+      z-index: 10;
+   }
+
+   &__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2.4rem;
+      row-gap: 2rem;
+   }
+
+   &__list[hidden] {
+      display: none;      
+    }
+
+   &__item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-radius: 20px;
+      background: $grey;
+      padding: 2rem;
+   }
+
+   &__item-left {
+      display: flex;
+      flex-direction: row;
+      gap: 1.6rem;
+   }
+
+   &__item-image {
+      border-radius: 10px;
+      width: 11.3rem;
+      height: 12.2rem;
+      overflow: hidden;
+
+      img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         display: block;
+      }
+   }
+
+   &__item-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      max-width: 32rem;
+   }
+
+   &__item-title {
+      color: $white;
+      font-family: $gotham;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 28px */
+   }
+
+   &__item-time {
+      color: $pink200;
+      font-family: $gotham;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2rem;
+   }
+
+   &__link,
+   &__free-entry {
+      color: $white;
+      font-family: $white;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2rem; 
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+   }
+
+   &__link {
+      background: $pink400;
+   }
+
+   &__free-entry {
+      background: $grey-light;
+   }
+
+   &__link {
+      display: none;
+    }
+    
+    &__free-entry {
+      display: none;
+    }
+    
+    &__item-right--registration &__link {
+      display: block;
+    }
+    
+    &__item-right--registration &__free-entry {
+      display: none;
+    }
+    
+    &__item-right--free &__link {
+      display: none;
+    }
+    
+    &__item-right--free &__free-entry {
+      display: block;
+    }
+}
+

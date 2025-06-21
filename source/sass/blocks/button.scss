@@ -1,0 +1,18 @@
+.primary-btn {
+   color: $white;
+   font-family: $mossport;
+   font-size: 3.8rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-transform: uppercase;
+   border-radius: 12px;
+   border: 2px solid $pink400;
+   background: $pink400;
+   padding: 2rem;
+
+   &--active {
+      border: 2px solid $pink400;
+      background: transparent;
+   }
+}

@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 60;
+
+  @media (max-width: $tablet) {
+    padding-bottom: 1.5rem;
+  }
+
+  @media (max-width: $mobile) {
+    padding-bottom: 2.2rem;
+  }
+
+   &__container {
+      background-color: rgba(30, 31, 50, 0.60);
+      backdrop-filter: blur(20px);
+   }
+
+
+  .container {
+    max-width: 160rem;
+  }
+
+  &__nav {
+    position: relative;
+    padding: 3.6rem 0;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+
+
+}

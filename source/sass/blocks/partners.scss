@@ -1,0 +1,98 @@
+.partners {
+
+  .container {
+    padding: 0;
+  }
+
+  &__title {
+    @media (max-width: $tablet) {
+      margin: 0 0 3.3rem;
+    }
+
+    @media (max-width: $mobile) {
+      margin: 0 0 4rem;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 3.5rem;
+
+    @media (max-width: $tablet) {
+      gap: 6.5rem;
+    }
+
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+
+  &__decor {
+    flex-shrink: 0;
+    position: relative;
+    right: 6.5rem;
+    bottom: 4rem;
+
+    @media (max-width: $tablet) {
+      right: -2.4rem;
+      bottom: 3.1rem;
+      width: 31.7rem;
+    }
+
+    @media (max-width: $mobile) {
+      right: -1.9rem;
+      bottom: 2.1rem;
+      width: 34rem;
+    }
+  }
+
+  &__content {
+    padding: 10rem 0 0;
+
+    @media (max-width: $tablet) {
+      padding: 3.5rem 0 0;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 2.8rem 1.6rem 0;
+    }
+  }
+
+  &__blocks {
+    display: flex;
+    gap: 3.9rem;
+    flex-wrap: wrap;
+
+    &:not(:last-child) {
+      margin: 0 0 10.4rem;
+    }
+
+    @media (max-width: $tablet) {
+      gap: 2.6rem;
+      max-width: 46.5rem;
+
+      &:not(:last-child) {
+        margin: 0 0 10rem;
+      }
+    }
+
+    @media (max-width: $mobile) {
+
+      &:not(:last-child) {
+        margin: 0 0 9rem;
+      }
+    }
+  }
+
+  &__logo {
+    width: 16rem;
+    height: 5.9rem;
+
+    @media (max-width: $tablet) {
+      width: 9.6rem;
+      height: 3.2rem;
+    }
+  }
+
+}

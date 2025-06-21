@@ -1,0 +1,113 @@
+.people {
+  width: 100%;
+  overflow: visible;
+
+  &__slider {
+    position: relative;
+    overflow: visible;
+  }
+
+  .swiper-container {
+    @media (max-width: $mobile) {
+      width: calc(100% + 3.2rem);
+      margin: 0 -1.6rem;
+    }
+  }
+
+  &__wrapper {
+    @media (max-width: $tablet) {
+      gap: 1rem;
+    }
+
+    @media(max-width: $mobile) {
+      margin: 0 0 1.3rem;
+      gap: 2.5rem;
+      padding: 0 1.6rem;
+
+      &::-webkit-scrollbar {
+        -webkit-appearance: none;
+      }
+
+      overflow: auto;
+    }
+  }
+
+  &__mobile-arrows {
+    display: none;
+
+    @media (max-width: $mobile) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+    cursor: pointer;
+
+    .disabled & {
+      display: none;
+    }
+
+    &--prev {
+      left: -0;
+    }
+
+    &--next {
+      right: 0;
+    }
+
+    @media (max-width: $tablet) {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+
+  &__slide {
+    width: 33%;
+
+    @media (max-width: $tablet) {
+      img {
+        max-width: 21.5rem;
+      }
+    }
+
+    @media(max-width: $mobile) {
+      width: 26rem;
+
+      img {
+        max-width: 26rem;
+      }
+    }
+  }
+
+  &__slide-title {
+    color: $purple;
+    font-family: $mossport;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin: 0 0 3rem;
+    text-align: center;
+
+    &--white {
+      color: $white;
+    }
+
+    @media (max-width: $tablet) {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__slide-subtitle {
+    color: $red;
+    font-family: $mossport;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+
+  }
+
+}
