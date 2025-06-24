@@ -44,12 +44,33 @@
           webvisor:true
       });
     </script> -->
+
+    <script src="https://api-maps.yandex.ru/v3/?apikey=87c834c0-0e38-406b-a03b-5592d288ba38&lang=ru_RU"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(102079149, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+      });
+    </script>
     <!-- /Yandex.Metrika counter -->
+   
   </head>
 
   <body>
     <!-- Yandex.Metrika counter -->
+
     <!-- <noscript><div><img src="https://mc.yandex.ru/watch/93594344" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+    <noscript><div><img src="https://mc.yandex.ru/watch/102079149" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
     <!-- /Yandex.Metrika counter -->
 
     <div itemscope style="overflow: hidden">
@@ -114,6 +135,8 @@
         </nav>
         <header class="header" id="header">
 
+         
+
         <div class="header__container container">
           <div class="header__content">
             <nav class="header__nav nav">
@@ -167,9 +190,9 @@
                   <img src="./img/hero/vector-2.png" alt="Vector">
                </div>
                <div class="hero__logos">
-                  <img src="./img/icons/department.svg" alt="Department">
-                  <img src="./img/icons/mossport.svg" alt="Mossport">
-                  <img src="./img/icons/pobeda.svg" alt="Pobeda">
+                  <a href="#"><img src="./img/icons/department.svg" alt="Department"></a>
+                  <a href="#"><img src="./img/icons/mossport.svg" alt="Mossport"></a>
+                  <a href="#"><img src="./img/icons/pobeda.svg" alt="Pobeda"></a>
                   <a href="#" class="sport-mos-link"><img src="./img/icons/sportmosru.svg" alt=""></a>
                </div>
                <div class="hero__content">
@@ -1055,11 +1078,637 @@
                
             </div>
           </section>
+
+          <section class="zones container">
+            <div class="zones__wrapper container-small">
+               <div class="zones__header">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" fill="none">
+                     <path d="M0.499998 22C18.2259 19.4227 20.3692 17.3311 23 1.84768e-06C25.64 17.3311 27.7741 19.4228 45.5 22C27.7741 24.5772 25.64 26.6689 23.0092 44C20.3692 26.6689 18.2351 24.5772 0.509192 22L0.499998 22Z" fill="white"/>
+                   </svg>
+                  <div class="header-l" id="zones">Партнерские зоны</div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" fill="none">
+                     <path d="M0.499998 22C18.2259 19.4227 20.3692 17.3311 23 1.84768e-06C25.64 17.3311 27.7741 19.4228 45.5 22C27.7741 24.5772 25.64 26.6689 23.0092 44C20.3692 26.6689 18.2351 24.5772 0.509192 22L0.499998 22Z" fill="white"/>
+                   </svg>
+               </div>
+               <div class="zones__accordeon">
+                  <div class="zones__item stretching" style="animation-delay: 0.2s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/stretching.svg" alt="Stretching">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
+                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Участие в модном показе
+                           </div>
+                           <div class="zones__activity-item">
+                              Розыгрыши подарков и промокодов
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по йоге
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по пилатесу
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zones__item inneme" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/inneme.svg" alt="Inneme">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
+                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по йоге
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по пилатесу
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zones__item eazyway" style="animation-delay: 0.2s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/eazyway.svg" alt="Eazyway">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
+                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Участие в модном показе
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по йоге
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по пилатесу
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zones__item bioniq" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/bioniq.svg" alt="Bioniq">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
+                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Участие в модном показе
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+
+                  <div class="zones__item makeup" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/makeup.svg" alt="Makeup">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
+                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Участие в модном показе
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+              </div>
+          </section>
+
+          <section class="child-zone container">
+            <div class="child-zone__wrapper container-small">
+               <div class="header-l">Детская зона</div>
+               <div class="child-zone__list">
+                  <div class="child-zone__item">
+                     <div class="child-zone__item-desc">
+                        Дискотека с мыльными пузырями
+                     </div>
+                     <img class="child-zone__image" src="./img/child/vector-1.png" alt="Vector">
+                  </div>
+
+                  <div class="child-zone__item">
+                     <div class="child-zone__item-desc">
+                        Мастер-классы
+                     </div>
+                     <img class="child-zone__image" src="./img/child/vector-2.png" alt="Vector">
+                  </div>
+
+                  <div class="child-zone__item">
+                     <div class="child-zone__item-desc">
+                        Бьюти-зона с аквагримом
+                     </div>
+                     <img class="child-zone__image" src="./img/child/vector-3.png" alt="Vector">
+                  </div>
+
+                  <div class="child-zone__item">
+                     <div class="child-zone__item-desc">
+                        Анимационная программа
+                     </div>
+                     <img class="child-zone__image" src="./img/child/vector-4.png" alt="Vector">
+                  </div>
+               </div>
+            </div>
+          </section>
+
+
+
+          <section class="map" id="map">
+            <div class="container">
+               <div class="container-small">
+                  <h2 class="header-l" id="map">Карта</h2>
+                  <div class="map__map-content">
+                    <div class="map__legend-wrapper">
+                      <div class="map__legend js-legend" dir="rtl">
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="1">
+                          <div class="map__legend-content">
+                            <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">1</div>
+                              <div class="map__legend-title">Сайклинг</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                                     Пушкинская площадь
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="1">Подробнее</button>
+
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="2">
+                           <div class="map__legend-content">
+                              <div class="map__legend-title-wrapper">
+                                 <div class="map__legend-title">2</div>
+                                 <div class="map__legend-title">Стритбаскет</div>
+                              </div>
+                              <div class="map__legend-pin">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                                 <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                                 </svg>
+                                 Тверская, площадь «Известия»
+                              </div>
+                           </div>
+                           <a class="map__more " href="#" data-scroll data-thumb-index="2">Подробнее</button>
+
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="3">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">3</div>
+                              <div class="map__legend-title">Памп трек</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Третьяковская, Климентовский пер.
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="3">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="4">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">4</div>
+                              <div class="map__legend-title">Фехтование</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Новопушкинский сквер
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="4">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-scroll data-thumb-index="5">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">5</div>
+                              <div class="map__legend-title">Роуп-скиппинг</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                            </svg>
+                              Пятницкая улица
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="5">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="6">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">6</div>
+                              <div class="map__legend-title">Настольный теннис</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Мясницкая улица
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="6">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="9">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">9</div>
+                              <div class="map__legend-title">Шахматы</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Площадь Революции, «Метрополь»
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="9">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="10">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">10</div>
+                              <div class="map__legend-title">Сборка кубика Рубика</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Площадь ТАСС (Б. Никитская)
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="10">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="11">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">11</div>
+                              <div class="map__legend-title">Полоса препятствий, фитнес джампинг</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                               </svg>
+                              Кудринская площадь
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="11">Подробнее</button>
+                        </div>
+                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="12">
+                          <div class="map__legend-content">
+                           <div class="map__legend-title-wrapper">
+                              <div class="map__legend-title">12</div>
+                              <div class="map__legend-title">Лекторий, фан-встречи</div>
+                           </div>
+                            <div class="map__legend-pin">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                                 <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
+                              </svg>
+                              Ильинский сквер (Китай-город вых. 10)
+                            </div>
+                          </div>
+                          <a class="map__more " href="#" data-scroll data-thumb-index="12">Подробнее</button>
+                        </div>
+                     
+                      </div>
+                    </div>
+      
+                    <div class="map__map js-map">
+
+                    </div>
+                  </div>
+               </div>
+              
+            </div>
+          </section>
+
+          <section class="partners container">
+            <div class="partners__vector">
+               <img src="./img/partners/vector.png" alt="">
+            </div>
+            <div class="partners__main container-small">
+               <div class="header-l">Организаторы и партнеры</div>
+               <div class="partners__organizers-section">
+                  <div class="partners__title-small">
+                     Организаторы
+                  </div>
+                  <div class="partners__organizers-list">
+                     <div class="partners__organizers-item">
+                        <img src="./img/icons/department-red.svg" alt="Department">
+                     </div>
+                     <div class="partners__organizers-item">
+                        <img src="./img/icons/mossport-red.svg" alt="Mos sport">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="partners__partners-section">
+                  <div class="partners__title-small">
+                     Партнеры
+                  </div>
+                  <div class="partners__partners-list">
+                     <div class="partners__partners-item">
+                        <img src="./img/icons/department-red.svg" alt="Department">
+                     </div>
+                     <div class="partners__partners-item">
+                        <img src="./img/icons/mossport-red.svg" alt="Mos sport">
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </section>
+
+           <section class="faq container">
+               <div class="faq__wrapper container-small">
+                  <div class="header-l" id="faq">Вопросы и&nbsp;ответы</div>
+                  <div class="faq__accordeon">
+                     <div class="faq__item" style="animation-delay: 0.2s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           Кто может посетить событие и&nbsp;сколько стоит вход?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           Посетить Московский марафон тренировок может любой желающий&nbsp;&mdash; это абсолютно бесплатно. Чтобы участвовать в тренировках, потребуется регистрация.
+                        </div>
+                     </div>
+                     <div class="faq__item" style="animation-delay: 0.3s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           Я&nbsp;хочу участвовать в&nbsp;марафоне. Что мне нужно сделать?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           Выбрать активность в&nbsp;расписании, зарегистрироваться и&nbsp;прийти на&nbsp;площадку к&nbsp;указанному времени.
+                        </div>
+                     </div>
+                     <div class="faq__item" style="animation-delay: 0.4s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           На&nbsp;сколько тренировок я&nbsp;могу зарегистрироваться?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           Можно записаться на&nbsp;одну, две, три или все тренировки. Главное&nbsp;&mdash; рассчитать свои силы.
+                        </div>
+                     </div>
+                     <div class="faq__item" style="animation-delay: 0.5s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           Для какого уровня подготовки подойдут тренировки марафона?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           В&nbsp;тренировках могут участвовать как новички, так и&nbsp;подготовленные спортсмены&nbsp;&mdash; каждый сам выбирает для себя оптимальную нагрузку.
+                        </div>
+                     </div>
+                     <div class="faq__item" style="animation-delay: 0.6s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           Предоставляется&nbsp;ли на&nbsp;тренировках специальный инвентарь?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           На&nbsp;площадках будет весь необходимый спортивный инвентарь.
+                        </div>
+                     </div>
+                     <div class="faq__item" style="animation-delay: 0.6s;">
+                        <button class="faq__toggler js-faq-toggler">
+                           Что мне нужно взять с&nbsp;собой?
+                           <div class="faq__icon">
+                              <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
+                              <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
+                           </div>
+                        </button>
+                        <div class="faq__content">
+                           Спортивную одежду, обувь, воду.
+                        </div>
+                     </div>
+                 </div>
+              
+
+            </div>
+            </section> 
+
+
+         <footer class="footer container">
+            <div class="footer__wrapper container-small">
+               <div class="footer__vector-1">
+                  <img src="./img/footer/vector-1.png" alt="Vector">
+               </div>
+               <div class="footer__vector-2">
+                  <img src="./img/footer/vector-2.png" alt="Vector">
+               </div>
+               <div class="footer__left">
+                  <div class="header-l" id="faq">Вопросы и&nbsp;ответы</div>
+                  <div class="footer__contacts">
+                     <div class="footer__contacts-item">
+                        <div class="footer__contacts-title">ПО ОБЩИМ ВОПРОСАМ</div>
+                        <a class="footer__contacts-link">???@mossport.ru</a>
+                     </div>
+                     <div class="footer__contacts-item">
+                        <div class="footer__contacts-title">ДЛЯ СМИ</div>
+                        <a class="footer__contacts-link">???@moscow.sport</a>
+                     </div>
+                  </div>
+                  <div class="footer__info">
+                     <div class="footer__info-content">Отправьте письмо на электронный адрес со следующей информацией:</div>
+                     <ul>
+                        <li>название СМИ и программы, планируемая дата выхода материала;</li>
+                        <li>ФИО корреспондента / всех участников съемочной группы с контактными телефонами.</li>
+                     </ul>
+                  </div>
+                  <div class="footer__docs">
+                     <a href="#">Политика конфиденциальности</a>
+                     <a href="#">Политика обработки персональных данных</a>
+                     <a href="#">Отказ от претензий</a>
+                  </div>
+               </div>
+               <div class="footer__right">
+                  <div class="footer__logos">
+                     <div class="footer__logos-left">
+                        <a href=""><img src="./img/icons/department.svg" alt="Department"></a>
+                        <a href=""><img src="./img/icons/mossport.svg" alt="Mossport"></a>
+                        <a href="#" class="sport-mos-link"><img src="./img/icons/sportmosru.svg" alt=""></a>
+                     </div>
+                     <a href=""><img src="./img/icons/pobeda.svg" alt="Pobeda"></a>
+                  </div>
+               </div>
+            </div>
+
+         </footer>
+
+         
           
       </main>
+      <!-- Кнопка "наверх" -->
+      <a class="container up js-scroll" data-scroll href="#header">
+         <img src="img/up.svg" alt="" width="20" height="13">
+       </a>
    
     </div>
     <script src="js/vendor.js"></script>
     <script src="js/main8.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
