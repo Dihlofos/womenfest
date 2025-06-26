@@ -10,11 +10,11 @@
     />
     <meta name="keywords" content="" />
     <!-- FAVICONS -->
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96" />
-   <link rel="icon" type="image/svg+xml" href="/img/favicons/favicon.svg" />
-   <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
-   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png" />
-   <link rel="manifest" href="/img/favicons/site.webmanifest" />
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/svg+xml" href="./img/favicons/favicon.svg" />
+   <link rel="shortcut icon" href="./img/favicons/favicon.ico" />
+   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+   <link rel="manifest" href="./img/favicons/site.webmanifest" />
     <!-- /FAVICONS -->
 
     <link rel="stylesheet" href="css/style5.min.css" />
@@ -29,21 +29,6 @@
     <meta property="og:url" content="https://day.sport.moscow/" />
     <!-- /Meta tags -->
     <title>Женский фестиваль спорта</title>
-    <!-- Yandex.Metrika counter -->
-    <!-- <script type="text/javascript" >
-      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-      m[i].l=1*new Date();
-      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-      ym(93594344, "init", {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
-      });
-    </script> -->
 
     <script src="https://api-maps.yandex.ru/v3/?apikey=87c834c0-0e38-406b-a03b-5592d288ba38&lang=ru_RU"></script>
     <!-- Yandex.Metrika counter -->
@@ -65,10 +50,9 @@
    
   </head>
 
-  <body>
+  <body class="main-body">
     <!-- Yandex.Metrika counter -->
 
-    <!-- <noscript><div><img src="https://mc.yandex.ru/watch/93594344" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
     <noscript><div><img src="https://mc.yandex.ru/watch/102079149" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
     <!-- /Yandex.Metrika counter -->
@@ -100,17 +84,17 @@
                   </a>
                 </li>
               <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#locations"
+                <a class="nav__link js-scroll" data-scroll href="#activities"
                   >Расписание</a
                 >
               </li>
               <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#concert"
+                <a class="nav__link js-scroll" data-scroll href="#zones"
                   >Партнерские зоны</a
                 >
               </li>
               <li class="nav__item">
-               <a class="nav__link js-scroll" data-scroll href="#concert"
+               <a class="nav__link js-scroll" data-scroll href="#child"
                  >Детская зона</a
                >
              </li>
@@ -147,17 +131,17 @@
                   </a>
                 </li>
               <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#locations"
+                <a class="nav__link js-scroll" data-scroll href="#activities"
                   >Расписание</a
                 >
               </li>
               <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#concert"
+                <a class="nav__link js-scroll" data-scroll href="#zones"
                   >Партнерские зоны</a
                 >
               </li>
               <li class="nav__item">
-               <a class="nav__link js-scroll" data-scroll href="#concert"
+               <a class="nav__link js-scroll" data-scroll href="#child"
                  >Детская зона</a
                >
              </li>
@@ -181,7 +165,7 @@
           </div>
         </div>
       </header>
-         <section class="hero container" id="hero">
+         <section class="hero container">
             <div class="hero__wrapper">
                <div class="hero__vector-1">
                   <img src="./img/hero/vector-1.png" alt="Vector">
@@ -199,7 +183,7 @@
                   <div class="hero__title-small">Красота в движении</div>
                   <div class="hero__title-big">Женский фестиваль спорта</div>
                   <div class="hero__title-medium">12 июля | Москва | Парк «Музеон»</div>
-                  <div class="hero__content-pseudo">Бесплатное участие</div>
+                  <!-- <div class="hero__content-pseudo">Бесплатное участие</div> -->
                </div>
             </div>
          </section>
@@ -209,7 +193,7 @@
               
               <div class="info__top">
                 
-                <div class="info__text-content">
+                <div class="info__text-content ">
                   <div class="info__title">
                     Добро пожаловать на первый спортивный фестиваль, где всё посвящено женщинам — вашей активности, увлечениям, красоте и здоровью!
                   </div>
@@ -283,7 +267,7 @@
             </div>
           </section>
 
-          <section class="activities container">
+          <section class="activities container" id="activities">
             <div class="activities__wrapper container-small">
                
                <div class="activities__vector-right">
@@ -293,7 +277,7 @@
                   <img src="./img/activities/vector-2.png" alt="Vector">
                </div>
                <div class="activities__extra-wrapper">
-                  <div class="header-l">тренировки и активности</div>
+                  <div class="header-l" >тренировки и активности</div>
                   <div class="activities__buttons">
                      <button class="primary-btn primary-btn--active" data-scene="main">Главная сцена</button>
                      <button class="primary-btn" data-scene="nova">сцена «Нова»</button>
@@ -305,34 +289,14 @@
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                      
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Начало работы главной сцены
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 10:15
                               </div>
                            </div>
                         </div>
@@ -349,30 +313,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Бодрое утро: фитнес-разминка с Самирой Мустафаевой
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 10:30-11:00
                               </div>
                            </div>
                         </div>
@@ -385,34 +329,14 @@
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 DJ-сет
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 11:00-12:00
                               </div>
                            </div>
                         </div>
@@ -425,14 +349,14 @@
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                       
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Джампинг-тренировка под брасс-бэнд
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 12:00-13:00
                               </div>
                            </div>
                         </div>
@@ -445,14 +369,174 @@
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 DJ-сет
+                              </div>
+                              <div class="activities__item-time">
+                                 13:00-13:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+   
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка по фит-року под битбокс
+                              </div>
+                              <div class="activities__item-time">
+                                 13:30-14:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+   
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 DJ-сет
+                              </div>
+                              <div class="activities__item-time">
+                                 14:30-14:50
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+   
+                     <div class="activities__item star">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
                               <img src="./img/activities/star-1.png" alt="Star">                        
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Выступление артиста
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 14:50-15:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                       
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка от Slim Fit Club с Полиной Киценко
+                              </div>
+                              <div class="activities__item-time">
+                                 15:45-16:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                       
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Зумба-тренировка под кавер-группу
+                              </div>
+                              <div class="activities__item-time">
+                                 16:45-17:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                       
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Трансляция модного показа
+                              </div>
+                              <div class="activities__item-time">
+                                 17:30-19:00
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item star">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Выступление артиста
+                              </div>
+                              <div class="activities__item-time">
+                                 19:00-19:40
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--free">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item star">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Выступление артиста
+                              </div>
+                              <div class="activities__item-time">
+                                 20:00-20:40
                               </div>
                            </div>
                         </div>
@@ -473,10 +557,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Диджей-сет
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 11:00-11:45
                               </div>
                            </div>
                         </div>
@@ -486,6 +570,7 @@
                         </div>
                      </div>
    
+                     
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -493,30 +578,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Диджей-сет
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 12:00-12:45
                               </div>
                            </div>
                         </div>
@@ -525,7 +590,8 @@
                            <div class="activities__free-entry">Вход свободный</div>
                         </div>
                      </div>
-   
+
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -533,30 +599,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Диджей-сет
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 13:00-13:45
                               </div>
                            </div>
                         </div>
@@ -565,7 +611,8 @@
                            <div class="activities__free-entry">Вход свободный</div>
                         </div>
                      </div>
-   
+
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -573,30 +620,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Диджей-сет
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 14:00-14:45
                               </div>
                            </div>
                         </div>
@@ -605,7 +632,8 @@
                            <div class="activities__free-entry">Вход свободный</div>
                         </div>
                      </div>
-   
+
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -613,30 +641,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Диджей-сет
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 15:00-15:45
                               </div>
                            </div>
                         </div>
@@ -645,7 +653,8 @@
                            <div class="activities__free-entry">Вход свободный</div>
                         </div>
                      </div>
-   
+
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -653,18 +662,62 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка от SMSTRETCHING
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 16:00-16:45
                               </div>
                            </div>
                         </div>
-                        <div class="activities__item-right activities__item-right--free">
+                        <div class="activities__item-right activities__item-right--registration">
                            <a class="activities__link">Регистрация</a>
                            <div class="activities__free-entry">Вход свободный</div>
                         </div>
                      </div>
+
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка от SMSTRETCHING
+                              </div>
+                              <div class="activities__item-time">
+                                 17:00-17:45
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+                
+                  
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка от SMSTRETCHING
+                              </div>
+                              <div class="activities__item-time">
+                                 18:00-18:45
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+                
    
                    </div>
                    
@@ -673,14 +726,34 @@
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                        
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Сайклинг
+                                 Тренировка по сайклингу
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 11:00-12:00
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/blank.svg" alt="Star">                       
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка по сайклингу
+                              </div>
+                              <div class="activities__item-time">
+                                 12:30-13:30
                               </div>
                            </div>
                         </div>
@@ -690,37 +763,18 @@
                         </div>
                      </div>
    
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                        
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка по сайклингу
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Сайклинг
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 14:00-15:00
                               </div>
                            </div>
                         </div>
@@ -730,37 +784,18 @@
                         </div>
                      </div>
    
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                        
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка по сайклингу
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Сайклинг
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 15:30-16:30
                               </div>
                            </div>
                         </div>
@@ -770,37 +805,18 @@
                         </div>
                      </div>
    
+
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
+                              <img src="./img/activities/blank.svg" alt="Star">                        
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
+                                 Тренировка по сайклингу
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Сайклинг
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
+                                 17:00-18:00
                               </div>
                            </div>
                         </div>
@@ -810,69 +826,12 @@
                         </div>
                      </div>
    
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
    
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Сайклинг
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
    
                    </div>
                    
                    <div class="activities__list" data-scene="lecture" hidden>
+                     
                      <div class="activities__item">
                         <div class="activities__item-left">
                            <div class="activities__item-image">
@@ -880,10 +839,150 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Лекция
+                                 Паблик-толк с Ириной Горбачевой
                               </div>
                               <div class="activities__item-time">
-                                 14:00—15:00
+                                 12:00-13:00
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Паблик-толк с Еленой Крыгиной
+                              </div>
+                              <div class="activities__item-time">
+                                 13:15-13:45
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Автограф-сессия с Еленой Крыгиной
+                              </div>
+                              <div class="activities__item-time">
+                                 13:45-14:00
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Встреча с участницами «Мисс Всея Руси»
+                              </div>
+                              <div class="activities__item-time">
+                                 14:15-14:45
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Паблик-толк от журнала "Москвичка
+                              </div>
+                              <div class="activities__item-time">
+                                 15:00-16:15
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Паблик-толк "Разбор модных образов" от секретного спикера
+                              </div>
+                              <div class="activities__item-time">
+                                 16:30-17:15
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Авторская лекция Полины Киценко "ЗОЖ: краткий курс здоровой жизни или с чем его не едят"
+                              </div>
+                              <div class="activities__item-time">
+                                 17:30-18:15
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 «О чем (не) говорят женщины» (шоу Ассоль)
+                              </div>
+                              <div class="activities__item-time">
+                                 18:30-19:30
                               </div>
                            </div>
                         </div>
@@ -893,185 +992,8 @@
                         </div>
                      </div>
    
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Лекция
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Лекция
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Лекция
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Лекция
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
-   
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Бодрое утро: фитнес-разминка
-                              </div>
-                              <div class="activities__item-time">
-                                 14:00—15:00
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--free">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
+
+
                    </div>
                </div>
                
@@ -1090,10 +1012,88 @@
                      <path d="M0.499998 22C18.2259 19.4227 20.3692 17.3311 23 1.84768e-06C25.64 17.3311 27.7741 19.4228 45.5 22C27.7741 24.5772 25.64 26.6689 23.0092 44C20.3692 26.6689 18.2351 24.5772 0.509192 22L0.499998 22Z" fill="white"/>
                    </svg>
                </div>
-               <div class="zones__accordeon">
+               <div class="zones__accordeon" >
                   <div class="zones__item stretching" style="animation-delay: 0.2s;">
                      <button class="zones__toggler js-faq-toggler">
                         <img src="./img/zones/stretching.svg" alt="Stretching">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              SMSTRETCHING - это сеть студий женского фитнеса, где каждая девушка может прийти в форму, начать заниматься спортом, добиться более высоких результатов, восстановиться после травмы, сесть на шпагат или в полный лотос.                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Сцена NOVA</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Тренировки по стретчингу, йоге, пилатесу, барре и другим направлениям
+                           </div>
+   
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zones__item inneme" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/inneme.svg" alt="Inneme">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              "INNEME – российский бренд спортивной бесшовной женской одежды. Комфортная функциональная одежда из материалов мембранного типа с эластичными свойствами.
+                              INNEME стремится вдохновлять Вас больше заниматься спортом, вести активный образ жизни и быть счастливее."                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Активности на площадке
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по йоге
+                           </div>
+                           <div class="zones__activity-item">
+                              Тренировки по пилатесу
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zones__item dobro" style="animation-delay: 0.2s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/dobro.svg" alt="Dobro">
                         <div class="zones__icon">
                            <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
                            <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
@@ -1125,50 +1125,6 @@
                            </div>
                            <div class="zones__activity-item">
                               Участие в модном показе
-                           </div>
-                           <div class="zones__activity-item">
-                              Розыгрыши подарков и промокодов
-                           </div>
-                           <div class="zones__activity-item">
-                              Тренировки по йоге
-                           </div>
-                           <div class="zones__activity-item">
-                              Тренировки по пилатесу
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="zones__item inneme" style="animation-delay: 0.3s;">
-                     <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/inneme.svg" alt="Inneme">
-                        <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
-                        </div>
-                     </button>
-                     <div class="zones__content">
-                        <div class="zones__info-wrapper">
-                           <div class="zones__text">
-                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
-                           </div>
-                           <div class="zones__meta-wrapper">
-                              <div class="zones__meta">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
-                                  </svg>
-                                  <div>10:30 – 19:00</div>
-                              </div>
-                              <div class="zones__meta">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
-                                  </svg>
-                                  <div>Возле главной сцены</div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="zones__activity-list">
-                           <div class="zones__activity-item">
-                              Активности на площадке
                            </div>
                            <div class="zones__activity-item">
                               Тренировки по йоге
@@ -1191,8 +1147,8 @@
                      <div class="zones__content">
                         <div class="zones__info-wrapper">
                            <div class="zones__text">
-                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
-                           </div>
+                              ЕАZYWAY — современный российский бренд спортивной одежды, история создания которого началась в 2019 году.
+                              Это не просто одежда, а качество жизни, образ мышления современного, стильного, уверенного в себе и развивающегося человека.                           </div>
                            <div class="zones__meta-wrapper">
                               <div class="zones__meta">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1210,18 +1166,58 @@
                         </div>
                         <div class="zones__activity-list">
                            <div class="zones__activity-item">
-                              Активности на площадке
+                              Модный корнер
+
                            </div>
                            <div class="zones__activity-item">
                               Участие в модном показе
                            </div>
-                           <div class="zones__activity-item">
-                              Тренировки по йоге
+      
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zones__item krygina" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/krygina.svg" alt="Krygina">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              KRYGINA cosmetics — косметический бренд, созданный профессиональным визажистом Еленой Крыгиной. Это интуитивно понятная мультифункциональная косметика, которая работает по принципу конструктора. Продукты взаимодействуют между собой и дополняют друг друга, открывая больше возможностей в макияже.
                            </div>
-                           <div class="zones__activity-item">
-                              Тренировки по пилатесу
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
                            </div>
                         </div>
+                        <div class="zones__activity-list">
+
+                           <div class="zones__activity-item">
+                              Станция с флеш-макияжем
+                           </div>
+                           <div class="zones__activity-item">
+                              Консультации визажистов
+                           </div>
+                           <div class="zones__activity-item">
+                              Подбор косметики
+                           </div>
+                           </div>
+                     
                      </div>
                   </div>
 
@@ -1236,8 +1232,8 @@
                      <div class="zones__content">
                         <div class="zones__info-wrapper">
                            <div class="zones__text">
-                              Благотворительная программа, разработанная букмекерской конторой FONBET.Она направлена на поддержку социально уязвимых групп населения: пожилые люди, дети из детских домов и дети с ограниченными возможностями.
-                           </div>
+                              BIONIQ  – это персонализация микронутриентов на основе клинических данных.
+                              Научная база bioniq помогает анализировать и отслеживать статус здоровья каждого отдельного человека и предлагать ему умные решения для оптимизации его состояния                           </div>
                            <div class="zones__meta-wrapper">
                               <div class="zones__meta">
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1255,10 +1251,10 @@
                         </div>
                         <div class="zones__activity-list">
                            <div class="zones__activity-item">
-                              Активности на площадке
+                              Консультации по витаминам
                            </div>
                            <div class="zones__activity-item">
-                              Участие в модном показе
+                              Розыгрыши подарков и промокодов
                            </div>
                            </div>
                      
@@ -1268,6 +1264,167 @@
                   <div class="zones__item makeup" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
                         <img src="./img/zones/makeup.svg" alt="Makeup">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              PROMAKEUP laboratory – это реализованная идея создания новых, уникальных и действительно необходимых мастерам продуктов. Ими легко и быстро работать, они многофункциональны и отвечают запросам бьюти-экспертов. Косметические продукты бренда – надежный инструмент в руках как профессиональных мастеров индустрии красоты, так и начинающих специалистов и просто любителей современного макияжа. С их помощью можно решить любые задачи, от простых до самых сложных, многие позиции в ассортименте бренда обладают уникальными физическими свойствами.                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Станция с флеш-макияжем
+                           </div>
+                           <div class="zones__activity-item">
+                              Консультации визажистов
+                           </div>
+                           <div class="zones__activity-item">
+                              Подбор косметики
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+
+                  <div class="zones__item rexona" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/rexona.svg" alt="Rexona">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              Бренд дезодорантов и антиперспирантов. Рексона — новое написание, неизменная уверенность в любой ситуации и защита от пота и запаха на 72 часа!                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Крымская набережная</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Станция антиперсперанта
+                           </div>
+                           <div class="zones__activity-item">
+                              Розыгрыши подарков и промокодов
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+
+                  <div class="zones__item zasport" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/zasport.svg" alt="Zasport">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              ZASPORT – российский бренд спортивной
+                              и casual одежды, официальный экипировщик
+                              Олимпийской команды России.                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Модный корнер
+                           </div>
+                           <div class="zones__activity-item">
+                              Участие в модном показе
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+
+                  <div class="zones__item any-buddy" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/ana-buddy.svg" alt="Ana buddy">
+                        <div class="zones__icon">
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                        </div>
+                     </button>
+                     <div class="zones__content">
+                        <div class="zones__info-wrapper">
+                           <div class="zones__text">
+                              ANY BUDDY — твой личный помощник в мире нутрицевтики. Удобные форматы, чистые составы, безопасные формулы и wow-эффект. Готовые решения на все случаи жизни — даже от выгорания, стресса, недосыпа.                           </div>
+                           <div class="zones__meta-wrapper">
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM16 16C15.9075 16.0927 15.7976 16.1663 15.6766 16.2164C15.5557 16.2666 15.426 16.2924 15.295 16.2924C15.164 16.2924 15.0343 16.2666 14.9134 16.2164C14.7924 16.1663 14.6825 16.0927 14.59 16L11.3 12.71C11.2055 12.6174 11.1303 12.5069 11.0788 12.3851C11.0273 12.2632 11.0005 12.1323 11 12V8C11 7.45 11.45 7 12 7C12.55 7 13 7.45 13 8V11.59L16 14.59C16.39 14.98 16.39 15.61 16 16Z" fill="white"/>
+                                  </svg>
+                                  <div>10:30 – 19:00</div>
+                              </div>
+                              <div class="zones__meta">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0001 12C12.5776 12 13.0721 11.7883 13.4837 11.3649C13.8946 10.9423 14.1001 10.434 14.1001 9.83995C14.1001 9.24595 13.8946 8.73727 13.4837 8.31391C13.0721 7.89127 12.5776 7.67995 12.0001 7.67995C11.4226 7.67995 10.9284 7.89127 10.5175 8.31391C10.1059 8.73727 9.9001 9.24595 9.9001 9.83995C9.9001 10.434 10.1059 10.9423 10.5175 11.3649C10.9284 11.7883 11.4226 12 12.0001 12ZM12.0001 22.8C9.1826 20.334 7.0784 18.0433 5.6875 15.9279C4.2959 13.8133 3.6001 11.856 3.6001 10.056C3.6001 7.35595 4.44465 5.20495 6.13375 3.60295C7.82215 2.00095 9.7776 1.19995 12.0001 1.19995C14.2226 1.19995 16.178 2.00095 17.8664 3.60295C19.5555 5.20495 20.4001 7.35595 20.4001 10.056C20.4001 11.856 19.7046 13.8133 18.3137 15.9279C16.9221 18.0433 14.8176 20.334 12.0001 22.8Z" fill="white"/>
+                                  </svg>
+                                  <div>Возле главной сцены</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="zones__activity-list">
+                           <div class="zones__activity-item">
+                              Консультации по витаминам
+                           </div>
+                           <div class="zones__activity-item">
+                              Розыгрыши подарков и промокодов
+                           </div>
+                           </div>
+                     
+                     </div>
+                  </div>
+
+                  <div class="zones__item refeel" style="animation-delay: 0.3s;">
+                     <button class="zones__toggler js-faq-toggler">
+                        <img src="./img/zones/refeel.svg" alt="Re-feel">
                         <div class="zones__icon">
                            <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
                            <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
@@ -1307,7 +1464,7 @@
               </div>
           </section>
 
-          <section class="child-zone container">
+          <section class="child-zone container" id="child">
             <div class="child-zone__wrapper container-small">
                <div class="header-l">Детская зона</div>
                <div class="child-zone__list">
@@ -1347,6 +1504,9 @@
           <section class="map" id="map">
             <div class="container">
                <div class="container-small">
+                  <div class="map__vector">
+                     <img src="./img/map/vector.png" alt="Vector">
+                  </div>
                   <h2 class="header-l" id="map">Карта</h2>
                   <div class="map__map-content">
                     <div class="map__legend-wrapper">
@@ -1358,9 +1518,9 @@
                               <div class="map__legend-title">Сайклинг</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+                              <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+                              </svg>
                                      Пушкинская площадь
                             </div>
                           </div>
@@ -1374,7 +1534,7 @@
                                  <div class="map__legend-title">Стритбаскет</div>
                               </div>
                               <div class="map__legend-pin">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                                 <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
                                  <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
                                  </svg>
                                  Тверская, площадь «Известия»
@@ -1390,9 +1550,9 @@
                               <div class="map__legend-title">Памп трек</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Третьяковская, Климентовский пер.
                             </div>
                           </div>
@@ -1405,9 +1565,9 @@
                               <div class="map__legend-title">Фехтование</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Новопушкинский сквер
                             </div>
                           </div>
@@ -1420,7 +1580,7 @@
                               <div class="map__legend-title">Роуп-скиппинг</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                              <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
                                <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
                             </svg>
                               Пятницкая улица
@@ -1435,9 +1595,9 @@
                               <div class="map__legend-title">Настольный теннис</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Мясницкая улица
                             </div>
                           </div>
@@ -1450,9 +1610,9 @@
                               <div class="map__legend-title">Шахматы</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Площадь Революции, «Метрополь»
                             </div>
                           </div>
@@ -1465,9 +1625,9 @@
                               <div class="map__legend-title">Сборка кубика Рубика</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Площадь ТАСС (Б. Никитская)
                             </div>
                           </div>
@@ -1480,9 +1640,9 @@
                               <div class="map__legend-title">Полоса препятствий, фитнес джампинг</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                               </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+</svg>
                               Кудринская площадь
                             </div>
                           </div>
@@ -1495,7 +1655,7 @@
                               <div class="map__legend-title">Лекторий, фан-встречи</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                              <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
                                  <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
                               </svg>
                               Ильинский сквер (Китай-город вых. 10)
@@ -1527,12 +1687,12 @@
                      Организаторы
                   </div>
                   <div class="partners__organizers-list">
-                     <div class="partners__organizers-item">
+                     <a class="partners__organizers-item">
                         <img src="./img/icons/department-red.svg" alt="Department">
-                     </div>
-                     <div class="partners__organizers-item">
+                     </a>
+                     <a class="partners__organizers-item">
                         <img src="./img/icons/mossport-red.svg" alt="Mos sport">
-                     </div>
+                     </a>
                   </div>
                </div>
 
@@ -1541,12 +1701,12 @@
                      Партнеры
                   </div>
                   <div class="partners__partners-list">
-                     <div class="partners__partners-item">
+                     <a class="partners__partners-item">
                         <img src="./img/icons/department-red.svg" alt="Department">
-                     </div>
-                     <div class="partners__partners-item">
+                     </a>
+                     <a class="partners__partners-item">
                         <img src="./img/icons/mossport-red.svg" alt="Mos sport">
-                     </div>
+                     </a>
                   </div>
                </div>
             </div>
@@ -1558,19 +1718,18 @@
                   <div class="faq__accordeon">
                      <div class="faq__item" style="animation-delay: 0.2s;">
                         <button class="faq__toggler js-faq-toggler">
-                           Кто может посетить событие и&nbsp;сколько стоит вход?
+                           Сколько активностей можно посетить?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
                            </div>
                         </button>
                         <div class="faq__content">
-                           Посетить Московский марафон тренировок может любой желающий&nbsp;&mdash; это абсолютно бесплатно. Чтобы участвовать в тренировках, потребуется регистрация.
-                        </div>
+                           Участие в фестивале абсолютно бесплатное. На большинство активностей и локаций вход свободный. На некоторые понадобится регистрация — в расписании вы увидите кнопку «Регистрация».                        </div>
                      </div>
                      <div class="faq__item" style="animation-delay: 0.3s;">
                         <button class="faq__toggler js-faq-toggler">
-                           Я&nbsp;хочу участвовать в&nbsp;марафоне. Что мне нужно сделать?
+                           Нужно ли брать с собой спортивный инвентарь?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
@@ -1582,7 +1741,7 @@
                      </div>
                      <div class="faq__item" style="animation-delay: 0.4s;">
                         <button class="faq__toggler js-faq-toggler">
-                           На&nbsp;сколько тренировок я&nbsp;могу зарегистрироваться?
+                           Можно ли переодеться на площадке?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
@@ -1594,7 +1753,7 @@
                      </div>
                      <div class="faq__item" style="animation-delay: 0.5s;">
                         <button class="faq__toggler js-faq-toggler">
-                           Для какого уровня подготовки подойдут тренировки марафона?
+                           Сколько активностей я могу посетить?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
@@ -1606,7 +1765,7 @@
                      </div>
                      <div class="faq__item" style="animation-delay: 0.6s;">
                         <button class="faq__toggler js-faq-toggler">
-                           Предоставляется&nbsp;ли на&nbsp;тренировках специальный инвентарь?
+                           Можно ли прийти с ребенком?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
@@ -1618,7 +1777,7 @@
                      </div>
                      <div class="faq__item" style="animation-delay: 0.6s;">
                         <button class="faq__toggler js-faq-toggler">
-                           Что мне нужно взять с&nbsp;собой?
+                           Могут ли в активностях принять участие мужчины?
                            <div class="faq__icon">
                               <img class="faq__up" src="./img/faq/arrow-up.svg" width="36" height="37" />
                               <img class="faq__down" src="./img/faq/arrow-down.svg" width="36" height="37" />
@@ -1635,7 +1794,7 @@
             </section> 
 
 
-         <footer class="footer container">
+         <footer class="footer container" id="footer">
             <div class="footer__wrapper container-small">
                <div class="footer__vector-1">
                   <img src="./img/footer/vector-1.png" alt="Vector">
@@ -1644,7 +1803,7 @@
                   <img src="./img/footer/vector-2.png" alt="Vector">
                </div>
                <div class="footer__left">
-                  <div class="header-l" id="faq">Вопросы и&nbsp;ответы</div>
+                  <div class="header-l">Контакты</div>
                   <div class="footer__contacts">
                      <div class="footer__contacts-item">
                         <div class="footer__contacts-title">ПО ОБЩИМ ВОПРОСАМ</div>

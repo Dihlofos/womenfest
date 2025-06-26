@@ -1,3 +1,5 @@
+
+
 .dummy {
 
    height: 100vh;
@@ -23,11 +25,19 @@
    }
 
    &__vector-2 {
-      width: 100rem;
       position: absolute;
+      top: 0;
       bottom: 0;
       right: 0;
+      width: auto;        
+      height: 100%; 
       z-index: 5;
+
+      img {
+         height: 100%;
+         width: auto;
+         object-fit: cover; 
+       }
    }
 
    &__logos-wrapper {

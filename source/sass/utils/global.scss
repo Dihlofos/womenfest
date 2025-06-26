@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  padding-top: 9.2rem;
+//   padding-top: 9.2rem;
 
   @media (max-width: $laptop) {
     // шаблон медиа-запроса desktop-first
@@ -38,6 +38,11 @@ body {
     // шаблон для фонового изображения на экранах с повышенной плотностью пикселей
   }
 
+
+}
+
+.main-body {
+   padding-top: 9.2rem;
 
 }
 
@@ -86,7 +91,7 @@ img {
    justify-content: center;
    align-items: center;
    border-radius: 1.2rem;
-   background: $pink400;
+   background: $bgbtn;
 }
 
 .header-l {

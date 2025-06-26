@@ -2,16 +2,8 @@
    position: relative;
    z-index: 2;
 
-   // @media (max-width: $tablet) {
-   //    padding: 4.4rem 0 ;
-   // }
-
-   // @media (max-width: $mobile) {
-   //    padding: 9rem 0 6.5rem;
-   // }
-
    &__wrapper {
-      padding-block: 0 $section-spacing;
+      padding-block: 0 13rem;
       position: relative;
    }
 
@@ -27,12 +19,13 @@
       background-color: $grey;
       border-radius: 20px;
       margin: 0 0 2rem;
-      padding: 2.5rem;
+      // padding: 2.5rem;
 
       &.active {
          background: linear-gradient(0deg, #FF57D8 -237%, #28293E 100%);
       }
    }
+    
 
    &__toggler {
       font-family: $mossport;
@@ -49,7 +42,8 @@
       border: none;
       background: transparent;
       cursor: pointer;
-      padding: 0;
+      // padding: 0;
+      padding: 2.5rem;
 
       @media (max-width: $tablet) {
          position: relative;
@@ -84,12 +78,12 @@
 
    &__icon {
       display: flex;
-      width: 6rem;
-      height: 6rem;
+      width: 3.6rem;
+      height: 3.6rem;
 
       img {
-         width: 6rem;
-         height: 6rem;
+         width: 3.6rem;
+         height: 3.6rem;
          fill: $purple;
          align-self: flex-start;
       }
@@ -127,8 +121,10 @@
       font-style: normal;
       font-weight: 400;
       line-height: 120%;
-      margin: 3rem 0 1.1rem;
+      // margin: 3rem 0 1.1rem;
       max-width: 108rem;
+      padding: 0 2.5rem 2.5rem 2.5rem;
+      margin-top: -1.2rem;
 
       @media (max-width: $tablet) {
          font-size: 2rem;

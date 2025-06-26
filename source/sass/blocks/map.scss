@@ -2,23 +2,21 @@
    position: relative;
  
    .container {
-      padding-block: 0 $section-spacing;
-
-   //   position: relative;
-   //   padding: 10.6rem 4.5rem 12.7rem;
- 
-   //   @media (max-width: $tablet) {
-   //     padding: 3.6rem 4.5rem 5.7rem;
-   //   }
- 
-   //   @media (max-width: $mobile) {
-   //     padding: 3.7rem 1.6rem 5rem;
-   //   }
+      padding-block: 0 20rem;
    }
+
+   &__vector {
+      width: 90rem;
+      position: absolute;
+      top: -15rem;
+      right: 0;
+      transform: translateX(40%);
+   }
+
  
    &__map {
      position: relative;
-     width: 78rem;
+     width: 78.5rem;
      height: 58.1rem;
      background-color: $black;
      z-index: 7;
@@ -52,7 +50,7 @@
  
    &__legend {
      position: relative;
-     padding-left: 3rem;
+     padding-left: 2rem;
      width: 58.3rem;
      height: 58.1rem;
      overflow: auto;
@@ -83,6 +81,7 @@
    &__map-content {
      display: flex;
      align-items: flex-start;
+     justify-content: space-between;
      gap: 2.2rem;
  
      @media (max-width: $tablet) {
@@ -99,7 +98,7 @@
    //   gap: 2.7rem;
      padding: 1.6rem 1.6rem 1.6rem 2rem;
      justify-content: space-between;
-     align-items: center;
+     align-items: flex-start;
      margin: 0 0 1.2rem;
      text-align: left;
      font-family: $mossport;
@@ -166,7 +165,7 @@
      font-size: 3.6rem;
  
      &.is-active {
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="37" height="44" viewBox="0 0 37 44" fill="none"><path d="M18.4084 0.136719C28.2969 0.136719 36.3127 8.15353 36.3127 18.042C36.3126 27.9172 18.4562 43.737 18.4084 43.7793C18.3157 43.6971 0.504335 27.9047 0.50415 18.042C0.50415 8.15355 8.52001 0.136749 18.4084 0.136719Z" fill="%233B3393"/></svg>');
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='50' viewBox='0 0 40 50' fill='none'><path d='M40 20.5128C40 31.8417 20.0002 50 20.0002 50C20.0002 50 0 31.8417 0 20.5128C0 9.1839 8.9543 0 20 0C31.0457 0 40 9.1839 40 20.5128Z' fill='%233B3393'/></svg>");
    }
  
      @media (max-width: $mobile) {
@@ -186,7 +185,6 @@
      border-radius: 12px;
      padding: 0.8rem 1.6rem;
      border: none;
-     margin-top: 1.8rem;
      text-align: center;
      text-decoration: none;
       font-family: $gotham;
