@@ -110,9 +110,9 @@
       &:hover {
          background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
       }
-   //   &.is-active {
-   //    background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
-   //   }
+     &.is-active {
+      background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
+     }
  
      @media (max-width: $mobile) {
        padding: 1.5rem 1.6rem;
