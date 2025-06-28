@@ -58,7 +58,9 @@
       padding: 2rem;
 
       &.star {
-         background: linear-gradient(90deg,#ff83e2 0,#b05eac 0%,#3f2b59 100%);
+         background-image: url('../../img/activities/ellipse.png');
+         background-size: contain;
+         background-repeat: no-repeat;
       }
    }
 
@@ -117,11 +119,17 @@
       line-height: 2rem; 
       padding: 1.5rem 2rem;
       border-radius: 12px;
-      cursor: pointer;
    }
 
    &__link {
       background: $pink400;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+         background: $white;
+         color: $grey;
+      }
    }
 
    &__free-entry {

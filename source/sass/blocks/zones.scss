@@ -2,13 +2,12 @@
    position: relative;
    z-index: 2;
 
-   // @media (max-width: $tablet) {
-   //    padding: 4.4rem 0 ;
-   // }
-
-   // @media (max-width: $mobile) {
-   //    padding: 9rem 0 6.5rem;
-   // }
+   .text-black {
+      .zones__text,
+      .zones__meta {
+         color: $grey;
+      }
+   }
 
    &__wrapper {
       padding-block: 0 11.3rem;
@@ -36,6 +35,9 @@
       border-radius: 50px 50px 0 0;
       border: 1px solid  rgba(255, 255, 255, 0.60);
       margin-top: -5rem;
+      background: $grey;
+      background-repeat: no-repeat;
+      background-size: cover;
 
       &.active {
          border-radius: 50px;
@@ -56,46 +58,46 @@
        }
 
       &.stretching {
-         background: linear-gradient(90deg, #6A59E9 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/stretching-bg.png');         
       }
 
       &.inneme {
-         background: linear-gradient(90deg, #4D6073 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/inneme-bg.png');
       }
 
       &.dobro {
-         background: linear-gradient(90deg, #E70024 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/dobro-bg.png');
       }
 
       &.eazyway {
-         background: linear-gradient(90deg, #ADA6A6 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/eazyway-bg.png');
       }
 
       &.krygina {
-         background: linear-gradient(90deg, #D47781 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/krygina-bg.png');
       }
 
       &.makeup {
-         background: linear-gradient(90deg, #4D4D52 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/makeup-bg.png');
       }
       &.bioniq {
-         background: linear-gradient(90deg, #00B2FE 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/bioniq-bg.png');
       }
 
       &.rexona {
-         background: linear-gradient(90deg, #15EDEE 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/rexona-bg.png');
       }
 
       &.zasport {
-         background: linear-gradient(90deg, #FFFFFF 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/zasport-bg.png');
       }
 
       &.any-buddy {
-         background: linear-gradient(90deg, #93E96B 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/any-bg.png');
       }
 
       &.refeel {
-         background: linear-gradient(90deg, #72568E 0%, #3E356E 100%, rgba(0, 0, 0, 0) 100%);
+         background-image: url('../../img/zones/refeel-bg.png');
       }
    }
 

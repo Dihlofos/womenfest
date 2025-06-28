@@ -105,10 +105,14 @@
      cursor: pointer;
      border-radius: 20px;
      background: $grey;
- 
-     &.is-active {
-      background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
-     }
+     transition: 0.3s ease;
+     
+      &:hover {
+         background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
+      }
+   //   &.is-active {
+   //    background: linear-gradient(178deg, #28293E 15.92%, #FF57D8 231.11%);
+   //   }
  
      @media (max-width: $mobile) {
        padding: 1.5rem 1.6rem;
@@ -149,11 +153,21 @@
        margin: 0 0 0.7rem;
      }
    }
+
+   ymaps {
+      canvas {
+         filter: grayscale(1);
+         -ms-filter: grayscale(1);
+         -webkit-filter: grayscale(1);
+         -moz-filter: grayscale(1);
+         -o-filter: grayscale(1);
+      }
+   }
  
    &__marker {
      display: flex;
      align-items: center;
-     padding-top: 0.2rem;
+     padding-bottom: 0.2rem;
      justify-content: center;
      text-transform: uppercase;
      font-family: $mossport;
