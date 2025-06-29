@@ -184,7 +184,7 @@
       position: relative;
       z-index: 10;
 
-      @media (max-width: $laptop) {
+      @media (max-width: $desktop) {
          display: none;
       }
    }
