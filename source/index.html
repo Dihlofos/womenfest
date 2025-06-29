@@ -62,21 +62,14 @@
         <nav class="nav nav--mobile js-nav">
          
           <button class="nav__mobile-toggler js-nav-toggler">
-            <svg width="33" height="22" viewBox="0 0 33 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="33" height="2" fill="#EE2C3C"/>
-              <rect y="10" width="33" height="2" fill="#EE2C3C"/>
-              <rect y="20" width="33" height="2" fill="#EE2C3C"/>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+               <rect y="0.5" width="30" height="30" rx="6" fill="#F843BF"/>
+               <rect x="5" y="8.5" width="20" height="2" fill="white"/>
+               <rect x="5" y="14.5" width="20" height="2" fill="white"/>
+               <rect x="5" y="20.5" width="20" height="2" fill="white"/>
+             </svg>
           </button>
           <div class="nav__wrapper">
-            <button class="nav__close js-nav-close ">
-              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="1.41406" y="0.000244141" width="33" height="2" transform="rotate(45 1.41406 0.000244141)" fill="white"/>
-                <rect x="1.41406" y="0.000244141" width="33" height="2" transform="rotate(45 1.41406 0.000244141)" fill="white"/>
-                <rect x="24.7485" y="1.41431" width="33" height="2" transform="rotate(135 24.7485 1.41431)" fill="white"/>
-                <rect x="24.7485" y="1.41431" width="33" height="2" transform="rotate(135 24.7485 1.41431)" fill="white"/>
-              </svg>
-            </button>
             <ul class="nav__list">
                <li class="nav__item">
                   <a class="nav__link js-scroll" data-scroll href="#hero">
@@ -113,58 +106,63 @@
                   >Контакты</a
                 >
               </li>
+
+              <a href="https://sport.mos.ru/" target="_blank" class="sport-mos-link"><img src="./img/icons/sportmosru.svg" alt=""></a>
             </ul>
-            <img class="nav__decor" src="img/nav/decor.png" alt="" width="280" height="385">
           </div>
         </nav>
+
+
         <header class="header" id="header">
-
-         
-
-        <div class="header__container container">
-          <div class="header__content">
-            <nav class="header__nav nav">
-              <ul class="nav__list">
-               <li class="nav__item">
-                  <a class="nav__link js-scroll" data-scroll href="#hero">
-                     О событии
-                  </a>
-                </li>
-              <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#activities"
-                  >Расписание</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#zones"
-                  >Партнерские зоны</a
-                >
-              </li>
-              <li class="nav__item">
-               <a class="nav__link js-scroll" data-scroll href="#child"
-                 >Детская зона</a
-               >
-             </li>
-             <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#map"
-                  >Карта</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link js-scroll" data-scroll href="#faq"
-                  >Вопросы и ответы</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link nav__link--blue js-scroll" data-scroll href="#footer"
-                  >Контакты</a
-                >
-              </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
+            <div class="header__container container">
+               <div class="header__content">
+                  <div class="header__logos">
+                     <a href="https://www.mos.ru/moskomsport/" target="_blank"><img src="./img/icons/department.svg" alt="Department"></a>
+                     <a href="https://sport.mos.ru/" target="_blank"><img src="./img/icons/mossport.svg" alt="Mossport"></a>
+                     <a href="https://may9.ru/" target="_blank"><img src="./img/icons/pobeda.svg" alt="Pobeda"></a>
+                  </div>
+                  <nav class="header__nav nav">
+                  <ul class="nav__list">
+                     <li class="nav__item">
+                        <a class="nav__link js-scroll" data-scroll href="#hero">
+                           О событии
+                        </a>
+                     </li>
+                  <li class="nav__item">
+                     <a class="nav__link js-scroll" data-scroll href="#activities"
+                        >Расписание</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link js-scroll" data-scroll href="#zones"
+                        >Партнерские зоны</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link js-scroll" data-scroll href="#child"
+                     >Детская зона</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link js-scroll" data-scroll href="#map"
+                        >Карта</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link js-scroll" data-scroll href="#faq"
+                        >Вопросы и ответы</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link nav__link--blue js-scroll" data-scroll href="#footer"
+                        >Контакты</a
+                     >
+                  </li>
+                  </ul>
+                  </nav>
+               </div>
+            </div>
+         </header>
          <section class="hero container">
             <div class="hero__wrapper">
                <div class="hero__vector-1">
@@ -182,7 +180,8 @@
                <div class="hero__content">
                   <div class="hero__title-small">Красота в движении</div>
                   <div class="hero__title-big">Женский фестиваль спорта</div>
-                  <div class="hero__title-medium">12 июля | Москва | Парк «Музеон»</div>
+                  <div class="hero__title-medium hero__title-medium--big">12 июля | Москва Парк | «Музеон»</div>
+                  <div class="hero__title-medium hero__title-medium--small">12 июля | Москва Парк «Музеон»</div>
                   <div class="hero__content-pseudo">Бесплатное участие</div>
                </div>
             </div>
@@ -195,9 +194,11 @@
                 
                 <div class="info__text-content ">
                   <div class="info__title">
-                     Добро пожаловать на&nbsp;первый спортивный фестиваль, где всё посвящено женщинам&nbsp;&mdash; вашей активности, увлечениям, красоте и&nbsp;здоровью!                  </div>
-                  <div class="info__description">
-                     Присоединяйтесь, чтобы раскрыть потенциал, зарядиться энергией и&nbsp;погрузиться в&nbsp;атмосферу заботы о&nbsp;себе.                  </div>
+                     Добро пожаловать на&nbsp;первый спортивный фестиваль, где всё посвящено женщинам&nbsp;&mdash; вашей активности, увлечениям, красоте и&nbsp;здоровью!                  
+                  </div>
+                  <div class="info__description info__description--big">
+                     Присоединяйтесь, чтобы раскрыть потенциал, зарядиться энергией и&nbsp;погрузиться в&nbsp;атмосферу заботы о&nbsp;себе.                  
+                  </div>
                 </div>
                 
                 <div class="info__features">
@@ -207,6 +208,10 @@
                     <li class="info__feature-item">Музыкальные выступления звезд и диджей-сеты.</li>
                   </ul>
                 </div>
+
+                <div class="info__description info__description--small">
+                  Присоединяйтесь, чтобы раскрыть потенциал, зарядиться энергией и&nbsp;погрузиться в&nbsp;атмосферу заботы о&nbsp;себе.                  
+               </div>
                 
               </div>
           
@@ -250,16 +255,11 @@
                         <path d="M0.795408 22C18.5213 19.4227 20.6646 17.3311 23.2954 1.84768e-06C25.9354 17.3311 28.0695 19.4228 45.7954 22C28.0695 24.5772 25.9354 26.6689 23.3046 44C20.6646 26.6689 18.5305 24.5772 0.804602 22L0.795408 22Z" fill="white"/>
                      </svg>
                      <div class="info-highlights__text">
-                     <span class="info-highlights__accent">Музыкальная сцена</span>
-                     И выступления звездных артистов
+                     <span class="info-highlights__accent">Музыкальная сцена</span><br>
+                     и выступления звездных артистов
                      </div>
                   </div>
                </div>
-
-               
-                  
-                 
-                
               </div>
           
             </div>
@@ -275,12 +275,14 @@
                   <img src="./img/activities/vector-2.png" alt="Vector">
                </div>
                <div class="activities__extra-wrapper">
-                  <div class="header-l" >тренировки и активности</div>
+                  <div class="header-l activities__title-big">тренировки и активности</div>
+                  <div class="header-l activities__title-small">спорт и активности</div>
                   <div class="activities__buttons">
                      <button class="primary-btn primary-btn--active" data-scene="main">Главная сцена</button>
                      <button class="primary-btn" data-scene="nova">сцена «Нова»</button>
-                     <button class="primary-btn" data-scene="cycling">Зона сайклинга</button>
                      <button class="primary-btn" data-scene="lecture">Лекторий</button>
+                     <button class="primary-btn" data-scene="cycling">Зона сайклинга</button>
+                     <button class="primary-btn" data-scene="wood">Деревянная сцена</button>
                    </div>
                    
                    <div class="activities__list" data-scene="main">
@@ -555,10 +557,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Барре
                               </div>
                               <div class="activities__item-time">
-                                 11:00-11:45
+                                 12:30-13:15
                               </div>
                            </div>
                         </div>
@@ -597,10 +599,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Растяжка
                               </div>
                               <div class="activities__item-time">
-                                 13:00-13:45
+                                 13:30-14:15
                               </div>
                            </div>
                         </div>
@@ -618,10 +620,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Йога
                               </div>
                               <div class="activities__item-time">
-                                 14:00-14:45
+                                 14:30-15:15
                               </div>
                            </div>
                         </div>
@@ -639,10 +641,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Пилатес
                               </div>
                               <div class="activities__item-time">
-                                 15:00-15:45
+                                 15:30-16:15
                               </div>
                            </div>
                         </div>
@@ -660,10 +662,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Танцы
                               </div>
                               <div class="activities__item-time">
-                                 16:00-16:45
+                                 16:30-17:15
                               </div>
                            </div>
                         </div>
@@ -681,10 +683,10 @@
                            </div>
                            <div class="activities__item-content">
                               <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
+                                 Функциональная тренировка
                               </div>
                               <div class="activities__item-time">
-                                 17:00-17:45
+                                 17:00-18:45
                               </div>
                            </div>
                         </div>
@@ -694,27 +696,6 @@
                         </div>
                      </div>
                 
-                  
-
-                     <div class="activities__item">
-                        <div class="activities__item-left">
-                           <div class="activities__item-image">
-                              <img src="./img/activities/star-1.png" alt="Star">                        
-                           </div>
-                           <div class="activities__item-content">
-                              <div class="activities__item-title">
-                                 Тренировка от SMSTRETCHING
-                              </div>
-                              <div class="activities__item-time">
-                                 18:00-18:45
-                              </div>
-                           </div>
-                        </div>
-                        <div class="activities__item-right activities__item-right--registration">
-                           <a class="activities__link">Регистрация</a>
-                           <div class="activities__free-entry">Вход свободный</div>
-                        </div>
-                     </div>
                 
    
                    </div>
@@ -993,6 +974,34 @@
 
 
                    </div>
+
+                   <div class="activities__list" data-scene="wood" hidden>
+                     
+                     <div class="activities__item">
+                        <div class="activities__item-left">
+                           <div class="activities__item-image">
+                              <img src="./img/activities/star-1.png" alt="Star">                        
+                           </div>
+                           <div class="activities__item-content">
+                              <div class="activities__item-title">
+                                 Тренировка с Самирой Мустафаевой
+                              </div>
+                              <div class="activities__item-time">
+                                 11:30-12:30
+                              </div>
+                           </div>
+                        </div>
+                        <div class="activities__item-right activities__item-right--registration">
+                           <a class="activities__link">Регистрация</a>
+                           <div class="activities__free-entry">Вход свободный</div>
+                        </div>
+                     </div>
+
+                    
+   
+
+
+                   </div>
                </div>
                
                
@@ -1011,12 +1020,13 @@
                    </svg>
                </div>
                <div class="zones__accordeon" >
+
                   <div class="zones__item stretching" style="animation-delay: 0.2s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/stretching.svg" alt="Stretching">
+                        <img class="zones__logo" src="./img/zones/stretching.svg" alt="Stretching">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1049,10 +1059,10 @@
 
                   <div class="zones__item inneme" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/inneme.svg" alt="Inneme">
+                        <img class="zones__logo" src="./img/zones/inneme.svg" alt="Inneme">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1091,10 +1101,10 @@
 
                   <div class="zones__item dobro" style="animation-delay: 0.2s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/dobro.svg" alt="Dobro">
+                        <img class="zones__logo" src="./img/zones/dobro.svg" alt="Dobro">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1136,10 +1146,10 @@
 
                   <div class="zones__item eazyway text-black" style="animation-delay: 0.2s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/eazyway.svg" alt="Eazyway">
+                        <img class="zones__logo" src="./img/zones/eazyway.svg" alt="Eazyway">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1177,10 +1187,10 @@
 
                   <div class="zones__item krygina" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/krygina.png" alt="Krygina">
+                        <img class="zones__logo" src="./img/zones/krygina.png" alt="Krygina">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1221,10 +1231,10 @@
 
                   <div class="zones__item bioniq" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/bioniq.svg" alt="Bioniq">
+                        <img class="zones__logo" src="./img/zones/bioniq.svg" alt="Bioniq">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1261,10 +1271,10 @@
 
                   <div class="zones__item makeup" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/makeup.svg" alt="Makeup">
+                        <img class="zones__logo" src="./img/zones/makeup.svg" alt="Makeup">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1303,10 +1313,10 @@
 
                   <div class="zones__item rexona text-black" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/rexona.svg" alt="Rexona">
+                        <img class="zones__logo" src="./img/zones/rexona.svg" alt="Rexona">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1342,10 +1352,10 @@
 
                   <div class="zones__item zasport text-black" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/zasport.svg" alt="Zasport">
+                        <img class="zones__logo" src="./img/zones/zasport.svg" alt="Zasport">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1383,10 +1393,10 @@
 
                   <div class="zones__item any-buddy text-black" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/any.svg" alt="Ana buddy">
+                        <img class="zones__logo" src="./img/zones/any.svg" alt="Ana buddy">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1422,10 +1432,10 @@
 
                   <div class="zones__item refeel" style="animation-delay: 0.3s;">
                      <button class="zones__toggler js-faq-toggler">
-                        <img src="./img/zones/refeel.svg" alt="Re-feel">
+                        <img class="zones__logo" src="./img/zones/refeel.svg" alt="Re-feel">
                         <div class="zones__icon">
-                           <img class="zones__up" src="./img/zones/arrow-up.svg" width="32" height="32" />
-                           <img class="zones__down" src="./img/zones/arrow-down.svg" width="32" height="32" />
+                           <img class="zones__up" src="./img/zones/arrow-up.svg" />
+                           <img class="zones__down" src="./img/zones/arrow-down.svg" />
                         </div>
                      </button>
                      <div class="zones__content">
@@ -1509,17 +1519,18 @@
                   <div class="map__map-content">
                     <div class="map__legend-wrapper">
                       <div class="map__legend js-legend" dir="rtl">
+
                         <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="1">
                           <div class="map__legend-content">
                             <div class="map__legend-title-wrapper">
                               <div class="map__legend-title">1</div>
-                              <div class="map__legend-title">Сайклинг</div>
+                              <div class="map__legend-title">Главная сцена</div>
                            </div>
                             <div class="map__legend-pin">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
                               <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
                               </svg>
-                                     Пушкинская площадь
+                                    Парк «Музеон»
                             </div>
                           </div>
                           <a class="map__more " href="#" data-scroll data-thumb-index="1">Подробнее</button>
@@ -1529,13 +1540,13 @@
                            <div class="map__legend-content">
                               <div class="map__legend-title-wrapper">
                                  <div class="map__legend-title">2</div>
-                                 <div class="map__legend-title">Стритбаскет</div>
+                                 <div class="map__legend-title">Зона стретчинга SMSTRETCHING</div>
                               </div>
                               <div class="map__legend-pin">
-                                 <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
-                                 <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                                 </svg>
-                                 Тверская, площадь «Известия»
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+                                    <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+                                  </svg>
+                                 Сцена «NOVA»
                               </div>
                            </div>
                            <a class="map__more " href="#" data-scroll data-thumb-index="2">Подробнее</button>
@@ -1545,13 +1556,13 @@
                           <div class="map__legend-content">
                            <div class="map__legend-title-wrapper">
                               <div class="map__legend-title">3</div>
-                              <div class="map__legend-title">Памп трек</div>
+                              <div class="map__legend-title">Зона сайлинга</div>
                            </div>
                             <div class="map__legend-pin">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
   <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
 </svg>
-                              Третьяковская, Климентовский пер.
+Парковка Новой Третьяковки
                             </div>
                           </div>
                           <a class="map__more " href="#" data-scroll data-thumb-index="3">Подробнее</button>
@@ -1560,13 +1571,13 @@
                           <div class="map__legend-content">
                            <div class="map__legend-title-wrapper">
                               <div class="map__legend-title">4</div>
-                              <div class="map__legend-title">Фехтование</div>
+                              <div class="map__legend-title">Лекторий</div>
                            </div>
                             <div class="map__legend-pin">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
   <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
 </svg>
-                              Новопушкинский сквер
+Летний кинотеатр Музеона
                             </div>
                           </div>
                           <a class="map__more " href="#" data-scroll data-thumb-index="4">Подробнее</button>
@@ -1575,92 +1586,18 @@
                           <div class="map__legend-content">
                            <div class="map__legend-title-wrapper">
                               <div class="map__legend-title">5</div>
-                              <div class="map__legend-title">Роуп-скиппинг</div>
+                              <div class="map__legend-title">Деревянная сцена</div>
                            </div>
                             <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
-                               <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                            </svg>
-                              Пятницкая улица
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
+                                 <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
+                               </svg>
+                              
                             </div>
                           </div>
                           <a class="map__more " href="#" data-scroll data-thumb-index="5">Подробнее</button>
                         </div>
-                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="6">
-                          <div class="map__legend-content">
-                           <div class="map__legend-title-wrapper">
-                              <div class="map__legend-title">6</div>
-                              <div class="map__legend-title">Настольный теннис</div>
-                           </div>
-                            <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
-  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
-</svg>
-                              Мясницкая улица
-                            </div>
-                          </div>
-                          <a class="map__more " href="#" data-scroll data-thumb-index="6">Подробнее</button>
-                        </div>
-                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="9">
-                          <div class="map__legend-content">
-                           <div class="map__legend-title-wrapper">
-                              <div class="map__legend-title">9</div>
-                              <div class="map__legend-title">Шахматы</div>
-                           </div>
-                            <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
-  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
-</svg>
-                              Площадь Революции, «Метрополь»
-                            </div>
-                          </div>
-                          <a class="map__more " href="#" data-scroll data-thumb-index="9">Подробнее</button>
-                        </div>
-                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="10">
-                          <div class="map__legend-content">
-                           <div class="map__legend-title-wrapper">
-                              <div class="map__legend-title">10</div>
-                              <div class="map__legend-title">Сборка кубика Рубика</div>
-                           </div>
-                            <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
-  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
-</svg>
-                              Площадь ТАСС (Б. Никитская)
-                            </div>
-                          </div>
-                          <a class="map__more " href="#" data-scroll data-thumb-index="10">Подробнее</button>
-                        </div>
-                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="11">
-                          <div class="map__legend-content">
-                           <div class="map__legend-title-wrapper">
-                              <div class="map__legend-title">11</div>
-                              <div class="map__legend-title">Полоса препятствий, фитнес джампинг</div>
-                           </div>
-                            <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21" fill="none">
-  <path d="M8 0.253906C12.4181 0.253906 15.9999 3.92762 16 8.45898C16 12.9905 8 20.2539 8 20.2539C7.96864 20.2254 0 12.9815 0 8.45898C0.000131653 3.92767 3.58192 0.253975 8 0.253906ZM8 5.04004C6.15921 5.04019 4.66701 6.57098 4.66699 8.45898C4.66699 10.347 6.1592 11.8778 8 11.8779C9.84092 11.8779 11.334 10.3471 11.334 8.45898C11.334 6.57088 9.84091 5.04004 8 5.04004Z" fill="#FF83E2"/>
-</svg>
-                              Кудринская площадь
-                            </div>
-                          </div>
-                          <a class="map__more " href="#" data-scroll data-thumb-index="11">Подробнее</button>
-                        </div>
-                        <div class="map__legend-item js-legend-item" dir="ltr" data-thumb-index="12">
-                          <div class="map__legend-content">
-                           <div class="map__legend-title-wrapper">
-                              <div class="map__legend-title">12</div>
-                              <div class="map__legend-title">Лекторий, фан-встречи</div>
-                           </div>
-                            <div class="map__legend-pin">
-                              <svg xmlns="http://www.w3.org/2000/svg" Подwidth="16" height="20" viewBox="0 0 16 20"робнее fill="none">
-                                 <path d="M8.53906 0.813477C13.2548 0.813505 17.0781 4.63677 17.0781 9.35254C17.0781 14.0683 8.53906 21.627 8.53906 21.627C8.53906 21.627 0 14.0683 0 9.35254C2.79893e-06 4.63675 3.82328 0.813477 8.53906 0.813477ZM8.53906 5.79492C6.57415 5.79492 4.98145 7.38763 4.98145 9.35254C4.98155 11.3174 6.57422 12.9102 8.53906 12.9102C10.5039 12.9101 12.0966 11.3173 12.0967 9.35254C12.0967 7.38765 10.5039 5.79496 8.53906 5.79492Z" fill="#FF83E2"/>
-                              </svg>
-                              Ильинский сквер (Китай-город вых. 10)
-                            </div>
-                          </div>
-                          <a class="map__more " href="#" data-scroll data-thumb-index="12">Подробнее</button>
-                        </div>
+                        
                      
                       </div>
                     </div>
@@ -1710,6 +1647,8 @@
             </div>
           </section>
 
+
+
            <section class="faq container">
                <div class="faq__wrapper container-small">
                   <div class="header-l" id="faq">Вопросы и&nbsp;ответы</div>
@@ -1734,8 +1673,8 @@
                            </div>
                         </button>
                         <div class="faq__content">
-                           Выбрать активность в&nbsp;расписании, зарегистрироваться и&nbsp;прийти на&nbsp;площадку к&nbsp;указанному времени.
-                        </div>
+                           Для активностей специальный инвентарь не&nbsp;потребуется. Просто приходите в&nbsp;удобной одежде и&nbsp;обуви и&nbsp;не&nbsp;забудьте взять с&nbsp;собой воду. 
+                        </div>                        
                      </div>
                      <div class="faq__item" style="animation-delay: 0.4s;">
                         <button class="faq__toggler js-faq-toggler">
@@ -1746,7 +1685,7 @@
                            </div>
                         </button>
                         <div class="faq__content">
-                           Можно записаться на&nbsp;одну, две, три или все тренировки. Главное&nbsp;&mdash; рассчитать свои силы.
+                           На&nbsp;площадке можно будет переодеться. Во&nbsp;избежание возникновения очередей, советуем сразу приходить в&nbsp;спортивной одежде.
                         </div>
                      </div>
                      <div class="faq__item" style="animation-delay: 0.5s;">
@@ -1758,7 +1697,7 @@
                            </div>
                         </button>
                         <div class="faq__content">
-                           В&nbsp;тренировках могут участвовать как новички, так и&nbsp;подготовленные спортсмены&nbsp;&mdash; каждый сам выбирает для себя оптимальную нагрузку.
+                           Вы&nbsp;можете выбрать и&nbsp;посетить любое количество активностей фестиваля.
                         </div>
                      </div>
                      <div class="faq__item" style="animation-delay: 0.6s;">
@@ -1770,7 +1709,7 @@
                            </div>
                         </button>
                         <div class="faq__content">
-                           На&nbsp;площадках будет весь необходимый спортивный инвентарь.
+                           Да, для детей от&nbsp;3&nbsp;лет подготовлены специальные активности в&nbsp;детской зоне.
                         </div>
                      </div>
                      <div class="faq__item" style="animation-delay: 0.6s;">
@@ -1782,13 +1721,14 @@
                            </div>
                         </button>
                         <div class="faq__content">
-                           Спортивную одежду, обувь, воду.
+                           Да, мужчины могут принять участие в&nbsp;активностях. Также на&nbsp;фестивале будет работать мужская зона с&nbsp;кибербаром.
                         </div>
                      </div>
+                     </div>
+                     
                  </div>
               
 
-            </div>
             </section> 
 
 
@@ -1852,8 +1792,9 @@
           </div>
       </main>
       <!-- Кнопка "наверх" -->
-      <a class="container up js-scroll" data-scroll href="#header">
+      <a class="up js-scroll" data-scroll href="#header">
          <img src="img/up.svg" alt="" width="20" height="13">
+  
        </a>
    
     </div>

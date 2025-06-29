@@ -3,6 +3,10 @@
 
    &__wrapper {
       padding-block: 13rem $section-spacing;
+
+      @media (max-width: $tablet) {
+         padding-block: 4rem 7.6rem;
+      }
    }
 
    &__top {
@@ -15,26 +19,70 @@
       font-style: normal;
       line-height: 120%; /* 28.8px */
       margin-bottom: 8.8rem;
+      position: relative;
+      z-index: 10;
+
+      @media (max-width: $tablet) {
+         flex-direction: column;
+         font-size: 1.5rem;
+         margin-bottom: 27.3rem;
+       }
+
    }
 
    &__text-content {
       padding-left: 4rem;
+
+      @media (max-width: $tablet) {
+         padding-left: 0;
+      }
    }
 
    &__title {
       max-width: 42.7rem;
       margin-bottom: 25rem;
       font-weight: 500;
+
+      @media (max-width: $tablet) {
+         max-width: 100%;
+         margin-bottom: 1.4rem;
+      }
    }
 
    &__description{
       max-width: 38rem;
       font-weight: 400;
+
+      @media (max-width: $tablet) {
+         max-width: 100%;
+      }
+
+      &--big {
+         display: block;
+
+         @media (max-width: $tablet) {
+            display: none;
+         }
+      }
+
+      &--small {
+         display: none;
+
+         @media (max-width: $tablet) {
+            display: block;
+         }
+      }
    }
 
    &__features {
       max-width: 39.5rem;
       margin-top: 11.5rem;
+
+      @media (max-width: $tablet) {
+         max-width: 100%;
+         margin-top: 0;
+         margin-bottom: 1rem;
+      }
    }
 
    &__features-list {
@@ -47,9 +95,14 @@
     
     &__feature-item {
       position: relative;
-      padding-left: 32px;
-      margin-bottom: 12px;
+      padding-left: 3.2rem;
+      margin-bottom: 1.2rem;
       font-weight: 400;
+
+      @media (max-width: $tablet) {
+         padding-left: 2.2rem;
+         margin-bottom: 0.5rem;
+       }
     }
     
     &__feature-item::before {
@@ -62,6 +115,13 @@
       background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"><path d="M0.131347 9.99995C8.00952 8.82847 8.96209 7.87771 10.1313 -5.23726e-05C11.3047 7.87771 12.2532 8.82847 20.1313 9.99995C12.2532 11.1714 11.3047 12.1222 10.1354 19.9999C8.96209 12.1222 8.0136 11.1714 0.135432 9.99995L0.131347 9.99995Z" fill="white"/></svg>');
       background-repeat: no-repeat;
       background-size: contain;
+
+      @media (max-width: $tablet) {
+         top: 0;
+         width: 16px;
+         height: 15px;
+         background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none"><path d="M0.0966803 7.5C6.00531 6.62139 6.71974 5.90832 7.59668 2.20535e-06C8.47669 5.90832 9.18805 6.62139 15.0967 7.5C9.18805 8.37861 8.47669 9.09168 7.59975 15C6.71974 9.09168 6.00837 8.37861 0.0997445 7.5L0.0966803 7.5Z" fill="white"/></svg>');
+       }
     }
 
     
@@ -81,7 +141,13 @@
          bottom: 10rem;
          right: 50%;
          transform: translateX(50%);
-         z-index: 10;
+         z-index: 5;
+
+         @media (max-width: $tablet) {
+            width: 38.5rem;
+            bottom: auto;
+            top: -27rem;
+         }
        }
 
    &__wrapper {
@@ -97,6 +163,17 @@
       overflow: hidden;
       z-index: 20;
 
+      @media (max-width: $tablet) {
+         padding: 2rem 2rem 3.7rem;
+         border-radius: 2rem;
+         gap: 1.8rem;
+      }
+
+      @media (max-width: $mobile) {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
       &::before {
          content: "";
          position: absolute;
@@ -110,6 +187,10 @@
            linear-gradient(#fff 0 0); 
          -webkit-mask-composite: xor;
          mask-composite: exclude;
+
+         @media (max-width: $tablet) {
+            border-radius: 2rem;
+         }
        }
    }
 
@@ -118,6 +199,18 @@
       display: flex;
       flex-direction: column;
       gap: 2.4rem;
+
+      @media (max-width: $tablet) {
+         max-width: 16rem;
+         gap: 1.2rem;
+      }
+
+      svg {
+         @media (max-width: $tablet) {
+            width: 2.6rem;
+            height: 2.5rem;
+         }
+      }
    }
 
    &__text,
@@ -129,6 +222,10 @@
       font-weight: 400;
       line-height: normal;
       text-transform: uppercase;
+
+      @media (max-width: $tablet) {
+         font-size: 2.2rem;
+      }
    }
 
    &__text {

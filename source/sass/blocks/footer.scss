@@ -1,15 +1,31 @@
 .footer {
 
+   &.container {
+      padding: 0;
+   }
+
    &__wrapper {
       position: relative;
       display: flex;
       flex-direction: row;
       // align-items: center;
-      justify-content: space-between;
+      // justify-content: space-between;
+      gap: clamp(2rem, 5vw, 16.5rem);
+      // gap: 16.5rem;
       border-radius: 40px 40px 0px 0px ;
       background: linear-gradient(86deg, #F843BF -8.75%, #D81A90 36.98%, #721663 95.47%);
-      padding: 8rem 23.5rem 3.2rem 10rem;
+      padding: 8rem 10rem 3.2rem 10rem;
       overflow: hidden;
+
+      @media (max-width: $laptop) {
+         padding: 8rem 6rem 3.2rem 6rem;
+      }
+
+      @media (max-width: $tablet) {
+         border-radius: 20px 20px 0px 0px ;
+         flex-direction: column;
+         padding: 4.7rem 2rem 2rem 2rem;
+      }
    }
 
    &__vector-1 {
@@ -27,6 +43,10 @@
       top: 0;
       right: 0;
       z-index: 1;
+
+      @media (max-width: $tablet) {
+         display: none;
+      }
    }
 
 
@@ -40,6 +60,10 @@
    .header-l {
       text-align: left;
       margin-bottom: 4.2rem;
+
+      @media (max-width: $tablet) {
+         margin-bottom: 3.5rem;
+      }
    }
 
    &__contacts {
@@ -47,12 +71,22 @@
       flex-direction: row;
       gap: 6.6rem;
       margin-bottom: 4rem;
+
+      @media (max-width: $tablet) {
+         flex-direction: column;
+         gap: 1.5rem;
+         margin-bottom: 1.5rem;
+      }
    }
 
    &__contacts-item {
       display: flex;
       flex-direction: column;
       gap: 2.2rem;
+
+      @media (max-width: $tablet) {
+         gap: 0.2rem;
+      }
    }
 
    &__contacts-title {
@@ -62,6 +96,10 @@
       font-style: normal;
       font-weight: 400;
       line-height: 120%;
+
+      @media (max-width: $tablet) {
+         font-size: 1.2rem;
+      }
    }
 
    &__contacts-link {
@@ -71,6 +109,10 @@
       font-style: normal;
       font-weight: 400;
       line-height: 3.2rem;
+
+      @media (max-width: $tablet) {
+         font-size: 2.4rem;
+      }
    }
 
 
@@ -82,11 +124,20 @@
       font-weight: 400;
       line-height: 120%;
 
+      @media (max-width: $tablet) {
+         font-size: 1.2rem;
+      }
+
       ul {
          margin-top: 2.3rem;
          margin-bottom: 4.2rem;
          padding-left: 2rem;
          max-width: 85rem;
+
+         @media (max-width: $tablet) {
+            margin-top: 1rem;
+            margin-bottom: 2.4rem;
+         }
       }
    }
 
@@ -94,6 +145,11 @@
       display: flex;
       flex-direction: row;
       gap: 4rem;
+
+      @media (max-width: $tablet) {
+         flex-direction: column;
+         gap: 0.3rem;
+      }
 
       a {
          color: $pink100;
@@ -104,6 +160,16 @@
          font-weight: 400;
          line-height: 2rem; 
          text-decoration: underline;
+         text-decoration-style: solid;
+         text-decoration-skip-ink: none;
+         text-decoration-thickness: 0.2px;
+         text-underline-offset: auto;
+         text-underline-position: from-font;
+
+         @media (max-width: $tablet) {
+            font-size: 1.2rem;
+
+         }
       }
    }
 
@@ -117,6 +183,10 @@
       gap: 2.8rem;
       position: relative;
       z-index: 10;
+
+      @media (max-width: $laptop) {
+         display: none;
+      }
    }
 
    &__logos-left {

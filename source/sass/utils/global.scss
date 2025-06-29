@@ -41,10 +41,10 @@ body {
 
 }
 
-.main-body {
-   padding-top: 9.2rem;
+// .main-body {
+//    padding-top: 9.2rem;
 
-}
+// }
 
 button {
   font-family: $gotham;
@@ -104,4 +104,9 @@ img {
    line-height: normal;
    text-transform: uppercase;
    margin-bottom: 5rem;
+
+   @media (max-width: $tablet) {
+      font-size: 3.8rem;
+      margin-bottom: 2rem;
+   }
 }

@@ -9,9 +9,17 @@
    border-radius: 12px;
    border: 2px solid $pink400;
    background: transparent;
-   // padding: 1.2rem 1.8rem;
-   padding: 1.2rem 1.8rem 0.5rem;
+   padding: 1.2rem 1.8rem;
+   // padding: 1.2rem 1.8rem 0.5rem;
    cursor: pointer;
+   flex-shrink: 0;
+
+   @media (max-width: $tablet) {
+      border: 1px solid $pink400;
+      border-radius: 6px;
+      font-size: 2.2rem;
+      padding: 0.5rem 0.8rem;;
+    }
 
    &--active {
       border: 2px solid $pink400;

@@ -1,13 +1,33 @@
 .child-zone {
    &__wrapper {
       padding-block: 0 11rem;
+
+      @media (max-width: $tablet) {
+         padding-block: 0 4.5rem;
+       }
    }
 
    &__list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 2.4rem;
+
+      @media (max-width: $tablet) {
+         display: flex;
+         flex-wrap: nowrap;        
+         overflow-x: auto;          
+         gap: 1.2rem;                
+         scroll-snap-type: x mandatory; 
+
+         scrollbar-width: none; 
+         -ms-overflow-style: none;
+       }
+     
    }
+
+   &__list::-webkit-scrollbar {
+      display: none; // Chrome, Safari
+    }
 
    &__item {
       position: relative;
@@ -16,6 +36,16 @@
       background: $grey;
       padding: 3rem;
       min-height: 40rem;
+
+      @media (max-width: $tablet) {
+         min-width: 22.4rem;     
+         min-height: 27rem;    
+         flex: 0 0 22.4rem;            
+         scroll-snap-align: start; 
+         padding: 2rem;
+       }
+
+      
    }
 
    &__item-desc {
@@ -27,6 +57,10 @@
       line-height: 120%;
       position: relative;        
       z-index: 1;  
+
+      @media (max-width: $tablet) {
+         font-size: 1.6rem;
+       }
    }
 
    &__image {

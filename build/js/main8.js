@@ -51,6 +51,43 @@
 //   }
 // })();
 
+
+"use strict";
+(function () {
+  const upButton = document.querySelector(".up");
+
+  if (!upButton) return;
+
+  const mobileBreakpoint = 768; 
+  const defaultBottom = 30;
+  const raisedBottom = 379;
+  const footerBuffer = 400; 
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.pageYOffset;
+    const windowHeight = window.innerHeight;
+    const docHeight = document.documentElement.scrollHeight;
+    const distanceToBottom = docHeight - (scrollY + windowHeight);
+
+    if (scrollY > 260) {
+      upButton.classList.add("up--shown");
+    } else {
+      upButton.classList.remove("up--shown");
+    }
+
+    if (window.innerWidth <= mobileBreakpoint) {
+      if (distanceToBottom < footerBuffer) {
+        upButton.style.bottom = `${raisedBottom}px`;
+      } else {
+        upButton.style.bottom = `${defaultBottom}px`;
+      }
+    } else {
+      upButton.style.bottom = "";
+    }
+  });
+})();
+
+
 "use strict";
 (function () {
   const key = "maraphon-cookie-modal-shown";
@@ -136,36 +173,37 @@
 (async function () {
   const locations = [
     {
-      name: "Пушкинская площадь",
+      name: "Парк Музеон",
       index: 1,
-      coords: [37.605822, 55.765412],
+      coords: [37.606871, 55.734594],
     },
     {
-      name: "Тверская, площадь «Известия»",
+      name: "Сцена «NOVA»",
       index: 2,
-      coords: [37.604014, 55.765779],
+      coords: [37.608203, 55.736464],
+
     },
     {
-      name: "ТРЕТЬЯКОВСКАЯ (КЛИМЕНТОВСКИЙ ПЕР.)",
+      name: "Парковка Новой Третьяковки",
       index: 3,
-      coords: [37.628541, 55.740791],
+      coords: [37.604486, 55.733926],
     },
     {
-      name: "Новопушкинский сквер",
+      name: "Летний кинотеатр Музеона",
       index: 4,
-      coords: [37.603716, 55.764309],
+      coords: [37.609811, 55.737324],
     },
     {
       name: "Пятницкая улица",
       index: 5,
       coords: [37.628163, 55.737831],
     },
-    {
-      name: "Мясницкая ул. Площадь et cetera",
-      index: 6,
-      coords: [37.636814, 55.764688],
-    },
-    // {
+   //  {
+   //    name: "Мясницкая ул. Площадь et cetera",
+   //    index: 6,
+   //    coords: [37.636814, 55.764688],
+   //  },
+   //  // {
     //   name: "Никольская улица",
     //   index: 7,
     //   coords: [37.623631, 55.7579],
@@ -175,41 +213,41 @@
     //   index: 8,
     //   coords: [37.628433, 55.757729],
     // },
-    {
-      name: "Плошадь революции",
-      index: 9,
-      coords: [37.619845, 55.757863],
-    },
-    {
-      name: "Большая никитинская, площадь тасс",
-      index: 10,
-      coords: [37.599498, 55.757587],
-    },
-    {
-      name: "Кудринская площадь",
-      index: 11,
-      coords: [37.582924, 55.758762],
-    },
-    {
-      name: "Ильинский сквер, китай-город",
-      index: 12,
-      coords: [37.633897, 55.754608],
-    },
+   //  {
+   //    name: "Плошадь революции",
+   //    index: 9,
+   //    coords: [37.619845, 55.757863],
+   //  },
+   //  {
+   //    name: "Большая никитинская, площадь тасс",
+   //    index: 10,
+   //    coords: [37.599498, 55.757587],
+   //  },
+   //  {
+   //    name: "Кудринская площадь",
+   //    index: 11,
+   //    coords: [37.582924, 55.758762],
+   //  },
+   //  {
+   //    name: "Ильинский сквер, китай-город",
+   //    index: 12,
+   //    coords: [37.633897, 55.754608],
+   //  },
     // {
     //   name: "ПАРК ГОРЬКОГО",
     //   index: 13,
     //   coords: [37.601848, 55.730188],
     // },
-    {
-      name: "Старый арбат",
-      index: 14,
-      coords: [37.591089, 55.749554],
-    },
-    {
-      name: "Калошин переулок",
-      index: 15,
-      coords: [37.592132, 55.748468],
-    },
+   //  {
+   //    name: "Старый арбат",
+   //    index: 14,
+   //    coords: [37.591089, 55.749554],
+   //  },
+   //  {
+   //    name: "Калошин переулок",
+   //    index: 15,
+   //    coords: [37.592132, 55.748468],
+   //  },
   ];
 
 const activeString = "is-active";
@@ -380,33 +418,55 @@ function findPosition(el) {
  
 
 
-"use strict";
+// "use strict";
+// (function () {
+//   const nav = document.querySelector('.js-nav');
+//   const toggler = nav.querySelector('.js-nav-toggler');
+//   const closeButton = nav.querySelector('.js-nav-close');
+//   const links = nav.querySelectorAll('.js-scroll');
+
+//   toggler.addEventListener('click', () => {
+//     nav.classList.toggle('is-active');
+//   })
+
+//   links.forEach((link) => {
+//     link.addEventListener('click', () => {
+//       closeNav();
+//     })
+//   })
+
+
+//   function closeNav() {
+//     nav.classList.remove('is-active');
+//   }
+
+
+// })();
+
+
+
 (function () {
   const nav = document.querySelector('.js-nav');
   const toggler = nav.querySelector('.js-nav-toggler');
   const closeButton = nav.querySelector('.js-nav-close');
   const links = nav.querySelectorAll('.js-scroll');
+  const headerContainer = document.querySelector('.header__container');
 
   toggler.addEventListener('click', () => {
     nav.classList.toggle('is-active');
-  })
-
-  closeButton.addEventListener('click', () => {
-    closeNav();
-  })
+    headerContainer.classList.toggle('nav-open'); 
+  });
 
   links.forEach((link) => {
     link.addEventListener('click', () => {
       closeNav();
-    })
-  })
-
+    });
+  });
 
   function closeNav() {
     nav.classList.remove('is-active');
+    headerContainer.classList.remove('nav-open');
   }
-
-
 })();
 
 // "use strict";

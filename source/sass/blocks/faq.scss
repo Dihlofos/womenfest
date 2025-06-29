@@ -5,6 +5,10 @@
    &__wrapper {
       padding-block: 0 13rem;
       position: relative;
+
+      @media (max-width: $tablet) {
+         padding-block: 0 2rem;
+      }
    }
 
 
@@ -20,6 +24,10 @@
       border-radius: 20px;
       margin: 0 0 2rem;
       // padding: 2.5rem;
+
+      @media (max-width: $tablet) {
+         border-radius: 12px;
+      }
 
       &.active {
          background: linear-gradient(0deg, #FF57D8 -237%, #28293E 100%);
@@ -42,25 +50,14 @@
       border: none;
       background: transparent;
       cursor: pointer;
+      text-align: left;
       // padding: 0;
       padding: 2.5rem;
 
       @media (max-width: $tablet) {
-         position: relative;
-         font-size: 2.4rem;
-         text-align: left;
-         line-height: 1;
-         height: auto;
+         padding: 1.8rem;
+         font-size: 2.8rem;
 
-      }
-
-      @media (max-width: $mobile) {
-         font-size: 2.4rem;
-         line-height: 100%;
-         text-align: left;
-         align-items: flex-start;
-         gap: 1rem;
-         padding-right: 3rem;
       }
 
       &.active {
@@ -81,35 +78,27 @@
       width: 3.6rem;
       height: 3.6rem;
 
+      @media (max-width: $tablet) {
+         width: 2.4rem;
+         height: 2.4rem;
+      }
+
       img {
          width: 3.6rem;
          height: 3.6rem;
          fill: $purple;
          align-self: flex-start;
+
+         @media (max-width: $tablet) {
+            width: 2.4rem;
+            height: 2.4rem;
+         }
       }
 
       .faq__up {
          display: none;
       }
 
-      @media (max-width: $tablet) {
-         position: absolute;
-         right: 0;
-         top: -0.5rem;
-         width: 2.7rem;
-         height: 2.7rem;
-         margin: 0 0 0 5rem;
-
-         img {
-         width: 2.7rem;
-         height: 2.7rem;
-         }
-      }
-
-      @media (max-width: $mobile) {
-         margin: 0 0 0 1rem;
-         top: 0.2rem;
-      }
    }
 
 
@@ -127,16 +116,8 @@
       margin-top: -1.2rem;
 
       @media (max-width: $tablet) {
-         font-size: 2rem;
-         line-height: 1;
-         margin: 2rem 0 0;
-         padding: 0 0 .7rem;
-      }
-
-      @media (max-width: $mobile) {
          font-size: 1.4rem;
-         margin: 2.8rem 0 0;
-         padding: 0 0 1.6rem;
+         padding: 0 1.8rem 1.8rem 1.8rem;
       }
 
       &.active {
