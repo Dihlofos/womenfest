@@ -105,46 +105,46 @@
        }
 
       &.stretching {
-         background-image: url('/img/zones/stretching-bg.png');         
+         background-image: url('../img/zones/stretching-bg.png');         
       }
 
       &.inneme {
-         background-image: url('/img/zones/inneme-bg.png');
+         background-image: url('../img/zones/inneme-bg.png');
       }
 
       &.dobro {
-         background-image: url('/img/zones/dobro-bg.png');
+         background-image: url('../img/zones/dobro-bg.png');
       }
 
       &.eazyway {
-         background-image: url('/img/zones/eazyway-bg.png');
+         background-image: url('../img/zones/eazyway-bg.png');
       }
 
       &.krygina {
-         background-image: url('/img/zones/krygina-bg.png');
+         background-image: url('../img/zones/krygina-bg.png');
       }
 
       &.makeup {
-         background-image: url('/img/zones/makeup-bg.png');
+         background-image: url('../img/zones/makeup-bg.png');
       }
       &.bioniq {
-         background-image: url('/img/zones/bioniq-bg.png');
+         background-image: url('../img/zones/bioniq-bg.png');
       }
 
       &.rexona {
-         background-image: url('/img/zones/rexona-bg.png');
+         background-image: url('../img/zones/rexona-bg.png');
       }
 
       &.zasport {
-         background-image: url('/img/zones/zasport-bg.png');
+         background-image: url('../img/zones/zasport-bg.png');
       }
 
       &.any-buddy {
-         background-image: url('/img/zones/any-bg.png');
+         background-image: url('../img/zones/any-bg.png');
       }
 
       &.refeel {
-         background-image: url('/img/zones/refeel-bg.png');
+         background-image: url('../img/zones/refeel-bg.png');
       }
    }
 
@@ -256,7 +256,7 @@
 
       &.active {
          display: flex;
-         align-items: start;
+         align-items: flex-start;
          margin-top: -8.6rem;
          padding: 3.5rem 4rem 2rem;
 
