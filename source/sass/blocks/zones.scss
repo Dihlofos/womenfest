@@ -94,7 +94,7 @@
             padding: 3.3rem 4rem;
 
             @media (max-width: $tablet) {
-               padding: 2.1rem 1.4rem;
+               padding: 2rem 1.4rem;
             }
          }
 
@@ -120,8 +120,32 @@
          background-image: url('../img/zones/eazyway-bg.png');
       }
 
+      &.mere {
+         background-image: url('../img/zones/eazyway-bg.png');
+      }
+
       &.krygina {
          background-image: url('../img/zones/krygina-bg.png');
+
+         .zones__logo {
+            height: 3.5rem;
+         }
+      }
+
+      &.ollin {
+         background-image: url('../img/zones/ollin-bg.png');
+      }
+
+       &.polubvi {
+         background-image: url('../img/zones/polubvi-bg.png');
+      }
+
+      &.face-fit {
+         background-image: url('../img/zones/face-fit-bg.png');
+      }
+
+      &.twinkle {
+         background-image: url('../img/zones/twinkle-bg.png');
       }
 
       &.makeup {
@@ -139,8 +163,20 @@
          background-image: url('../img/zones/zasport-bg.png');
       }
 
+      &.under-you {
+         background-image: url('../img/zones/under-you-bg.png');
+
+         .zones__logo {
+            height: 3.2rem;
+         }
+      }
+
       &.any-buddy {
          background-image: url('../img/zones/any-bg.png');
+
+         .zones__logo {
+            height: 6.7rem;
+         }
       }
 
       &.refeel {
@@ -289,6 +325,14 @@
       @media (max-width: $tablet) {
          font-size: 1.4rem;
        }
+
+       @media (max-width: $mobile) {
+          display: -webkit-box;
+         -webkit-line-clamp: 6;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         text-overflow: ellipsis;
+       }
    }
 
    &__meta-wrapper {
@@ -309,7 +353,7 @@
       font-family: $gotham;
       font-size: 2rem;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 120%;
       align-items: center;
 

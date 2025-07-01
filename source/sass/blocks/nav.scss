@@ -37,7 +37,7 @@
       height: 100%;
       background-color: $grey-light;
       z-index: 72;
-      padding: 2rem;
+      padding: 1.5rem 2rem;
 
       .nav.is-active & {
         display: block;
@@ -52,7 +52,7 @@
 
   &__list {
     display: flex;
-    gap: 2.4rem;
+    gap: 1.7rem;
     list-style: none;
     padding: 0;
     margin: 0;
