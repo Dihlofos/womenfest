@@ -108,6 +108,10 @@
          background-image: url('../img/zones/stretching-bg.png');         
       }
 
+      &.hidehere {
+         background-image: url('../img/zones/hidehere-bg.png');
+      }
+
       &.inneme {
          background-image: url('../img/zones/inneme-bg.png');
       }
@@ -118,6 +122,10 @@
 
       &.eazyway {
          background-image: url('../img/zones/eazyway-bg.png');
+
+         .zones__logo {
+            height: 3.3rem;
+         }
       }
 
       &.mere {
