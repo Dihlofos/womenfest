@@ -110,10 +110,30 @@
 
       &.hidehere {
          background-image: url('../img/zones/hidehere-bg.png');
+
+         .zones__logo {
+            height: 2.3rem;
+         }
       }
 
       &.inneme {
          background-image: url('../img/zones/inneme-bg.png');
+         
+         .zones__logo {
+            height: 3.3rem;
+         }
+      }
+
+      &.basique {
+         background-image: url('../img/zones/basique-bg.png');
+
+         .zones__logo {
+            height: 2.8rem;
+         }
+      }
+
+      &.loksitan {
+         background-image: url('../img/zones/loksitan-bg.png');
       }
 
       &.dobro {
