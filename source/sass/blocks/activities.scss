@@ -64,7 +64,7 @@
       gap: 1.6rem;
       z-index: 10;
       margin-bottom: 5rem;
-      flex-wrap: wrap; 
+      flex-wrap: wrap;
 
       @media (max-width: $tablet) {
          gap: 1.2rem;
@@ -85,7 +85,7 @@
    }
 
    &__list[hidden] {
-      display: none;      
+      display: none;
     }
 
    &__list-сenter {
@@ -99,7 +99,7 @@
       font-size: 3.2rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 130%; 
+      line-height: 130%;
       text-align: center;
 
       @media (max-width: $tablet) {
@@ -130,6 +130,7 @@
          background-image: url('../img/activities/ellipse.png');
          background-size: contain;
          background-repeat: no-repeat;
+         background-size: 100% 100%;
       }
    }
 
@@ -203,7 +204,7 @@
       font-size: 1.6rem;
       font-style: normal;
       font-weight: 500;
-      line-height: 2rem; 
+      line-height: 2rem;
       padding: 1.5rem 2rem;
       border-radius: 12px;
       flex-shrink: 0;
@@ -235,25 +236,31 @@
    &__link {
       display: none;
     }
-    
+
     &__free-entry {
       display: none;
     }
-    
+
     &__item-right--registration &__link {
       display: block;
     }
-    
+
     &__item-right--registration &__free-entry {
       display: none;
     }
-    
+
     &__item-right--free &__link {
       display: none;
     }
-    
+
     &__item-right--free &__free-entry {
       display: block;
+    }
+
+    &__item-right--registration-soon {
+      .activities__registration-soon {
+        display: block;
+      }
     }
 }
 
