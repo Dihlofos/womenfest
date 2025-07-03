@@ -88,6 +88,31 @@
       display: none;      
     }
 
+   &__list-сenter {
+      display: flex;
+      justify-content: center;
+   }
+
+   &__info-soon {
+      color: $white;
+      font-family: $gotham;
+      font-size: 3.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%; 
+      text-align: center;
+
+      @media (max-width: $tablet) {
+         font-size: 2rem;
+       }
+
+       @media (max-width: $mobile) {
+         font-size: 1.6rem;
+       }
+   }
+
+
+
    &__item {
       display: flex;
       flex-direction: row;
