@@ -114,6 +114,7 @@
       font-weight: 400;
       line-height: normal;
       text-transform: uppercase;
+      max-width: 95rem;
 
       @media (max-width: $tablet) {
          font-size: 2rem;
@@ -133,6 +134,10 @@
          @media (max-width: $tablet) {
             display: none;
          }
+
+          @media (max-width: $mobile) {
+            display: block;
+         }
       }
 
       &--small {
@@ -140,6 +145,10 @@
 
          @media (max-width: $tablet) {
             display: block;
+         }
+
+          @media (max-width: $mobile) {
+            display: none;
          }
       }
    }
