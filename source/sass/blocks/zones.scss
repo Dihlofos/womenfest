@@ -134,6 +134,10 @@
 
       &.loccitane {
          background-image: url('../img/zones/loccitane-bg.png');
+
+         .zones__logo {
+            height: 3rem;
+         }
       }
 
       &.dobro {
