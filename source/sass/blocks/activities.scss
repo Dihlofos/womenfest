@@ -72,6 +72,11 @@
        }
    }
 
+   &__list-center {
+      display: flex !important;
+      justify-content: center;
+   }
+
    &__list {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -88,10 +93,6 @@
       display: none;
     }
 
-   &__list-сenter {
-      display: flex;
-      justify-content: center;
-   }
 
    &__info-soon {
       color: $white;
