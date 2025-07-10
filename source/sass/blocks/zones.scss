@@ -124,6 +124,14 @@
          }
       }
 
+      &.unod {
+         background-image: url('../img/zones/inneme-bg.png');
+         
+         .zones__logo {
+            height: 3.3rem;
+         }
+      }
+
       &.basique {
          background-image: url('../img/zones/basique-bg.png');
 
@@ -139,6 +147,7 @@
             height: 3rem;
          }
       }
+      
 
       &.dobro {
          background-image: url('../img/zones/dobro-bg.png');
