@@ -165,6 +165,14 @@
          background-image: url('../img/zones/eazyway-bg.png');
       }
 
+      &.dolgoletie {
+         background-image: url('../img/zones/eazyway-bg.png');
+
+         .zones__logo {
+            height: 3.8rem;
+         }
+      }
+
       &.krygina {
          background-image: url('../img/zones/krygina-bg.png');
 
