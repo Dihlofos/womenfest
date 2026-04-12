@@ -33,7 +33,7 @@ gulp.task("copy", function () {
       ],
       {
         base: "source",
-      }
+      },
     )
     .pipe(gulp.dest("build"));
 });
@@ -46,7 +46,7 @@ gulp.task("css", function () {
     .pipe(sass())
     .pipe(postcss([autoprefixer()]))
     .pipe(csso())
-    .pipe(rename("style5.min.css"))
+    .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
     .pipe(server.stream());
@@ -60,7 +60,7 @@ gulp.task("images", function () {
         imagemin.optipng({ optimizationLevel: 3 }),
         imageminJpegtran({ progressive: true }),
         imagemin.svgo(),
-      ])
+      ]),
     )
     .pipe(gulp.dest("source/img"));
 });
@@ -78,7 +78,7 @@ gulp.task("sprite", function () {
     .pipe(
       svgstore({
         inlineSvg: true,
-      })
+      }),
     )
     .pipe(rename("sprite.svg"))
     .pipe(gulp.dest("build/img"));
@@ -94,7 +94,7 @@ gulp.task("html", function () {
 gulp.task("js", function () {
   return gulp
     .src("source/js/main/*.js")
-    .pipe(concat("main8.js"))
+    .pipe(concat("main.js"))
     .pipe(gulp.dest("build/js"));
 });
 
@@ -106,14 +106,14 @@ gulp.task("vendor", function () {
 });
 
 gulp.task("server", function () {
-   server.init({
-     server: "build/",
-     port: 3003,
-     notify: false,
-     open: true,
-     cors: true,
-     ui: false,
-   });
+  server.init({
+    server: "build/",
+    port: 3000,
+    notify: false,
+    open: true,
+    cors: true,
+    ui: false,
+  });
 
   gulp.watch("source/sass/**/*.scss", gulp.series("css"));
   gulp.watch("source/img/**", gulp.series("copy", "refresh"));
@@ -138,7 +138,7 @@ gulp.task(
     "vendor",
     "sprite",
     "html",
-    "js"
-  )
+    "js",
+  ),
 );
 gulp.task("start", gulp.series("build", "server"));
