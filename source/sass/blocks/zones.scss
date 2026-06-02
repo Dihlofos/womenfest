@@ -2,6 +2,13 @@
    position: relative;
    z-index: 2;
 
+   &__decor {
+    position: absolute;
+    left: -75rem;
+    top: -69.5rem;
+    max-width: unset;
+   }
+
    .text-black {
       .zones__text,
       .zones__meta {
@@ -15,13 +22,13 @@
 
       }
    }
- 
+
    &__wrapper {
-      padding-block: 0 11.3rem;
+      padding: 0 0 16rem;
       position: relative;
 
       @media (max-width: $tablet) {
-         padding-block: 0 7.5rem;
+        padding: 7.5rem 0;
 
       }
    }
@@ -40,10 +47,11 @@
       }
 
       svg {
+          margin-top: 1.2rem;
          @media (max-width: $tablet) {
             width: 2.6rem;
             height: 2.5rem;
-   
+
          }
       }
    }
@@ -89,7 +97,7 @@
          @media (max-width: $tablet) {
             border-radius: 20px;
          }
-         
+
          button {
             padding: 3.3rem 4rem;
 
@@ -105,7 +113,7 @@
        }
 
       &.stretching {
-         background-image: url('../img/zones/stretching-bg.png');         
+         background-image: url('../img/zones/stretching-bg.png');
       }
 
       &.hidehere {
@@ -118,7 +126,7 @@
 
       &.inneme {
          background-image: url('../img/zones/inneme-bg.png');
-         
+
          .zones__logo {
             height: 3.3rem;
          }
@@ -126,7 +134,7 @@
 
       &.unod {
          background-image: url('../img/zones/inneme-bg.png');
-         
+
          .zones__logo {
             height: 3.3rem;
          }
@@ -147,7 +155,7 @@
             height: 3rem;
          }
       }
-      
+
 
       &.dobro {
          background-image: url('../img/zones/dobro-bg.png');
@@ -241,7 +249,7 @@
       }
    }
 
-   
+
 
    &__toggler {
       font-family: $mossport;
@@ -320,7 +328,7 @@
          display: none;
       }
 
-      
+
    }
 
    &__logo {
@@ -345,7 +353,7 @@
          flex-direction: column;
          gap: 1.2rem;
        }
-      
+
 
       &.active {
          display: flex;
@@ -377,7 +385,7 @@
       font-size: 2rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; 
+      line-height: 120%;
 
       @media (max-width: $tablet) {
          font-size: 1.4rem;
@@ -429,8 +437,8 @@
    &__activity-list {
       max-width: 65rem;
       display: flex;
-      flex-wrap: wrap;   
-      align-items: flex-start;   
+      flex-wrap: wrap;
+      align-items: flex-start;
       gap: 1.4rem;
 
       @media (max-width: $tablet) {
@@ -439,7 +447,7 @@
    }
 
    &__activity-item {
-      display: inline-block;  
+      display: inline-block;
       padding: 2rem 2.4rem;
       border-radius: 12px;
       background: $white;

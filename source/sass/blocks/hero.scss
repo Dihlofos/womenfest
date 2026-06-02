@@ -1,17 +1,16 @@
 .hero {
 
-   &.container {
-      padding: 0;
-   }
+  .container {
+    position: relative;
+  }
 
    &__wrapper {
       position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       border-radius: 0px 0px 60px 60px;
-      background: linear-gradient(112deg, #721663 13.05%, #D81A90 53.63%, #F843BF 85.36%);
-      padding-block: 11.5rem 14.1rem;
+      background: url(../img/hero/bg.jpg);
+      background-size: 200%;
+      background-repeat: no-repeat;
+      padding-block: 12.3rem 12.1rem;
       z-index: 2;
       overflow: hidden;
       padding-inline: 1rem;
@@ -25,8 +24,8 @@
    &__vector-1 {
       width: 57rem;
       position: absolute;
-      bottom: 0;
-      left: 0;
+      bottom: -19.7rem;
+      left: -43rem;
       z-index: 5;
 
       @media (max-width: $tablet) {
@@ -36,30 +35,29 @@
 
    &__vector-2 {
       position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      width: auto;        
-      height: 100%; 
+      top: -66.5rem;
+      right: -68rem;
+      width: auto;
       z-index: 5;
 
       @media (max-width: $tablet) {
-         right: -10rem;
-
+        right: -10rem;
       }
 
       img {
-         height: 100%;
+         height: auto;
          width: auto;
-         object-fit: cover; 
+         object-fit: cover;
        }
    }
 
    &__logos {
+    position: relative;
       display: flex;
       flex-direction: row;
+      justify-content: center;
       align-items: center;
-      gap: 2.4rem;
+      gap: 1.8rem;
       margin-bottom: 2.7rem;
       z-index: 10;
 
@@ -69,25 +67,14 @@
    }
 
    &__content {
-      max-width: 125rem;
+      max-width: 73.6rem;
       text-align: center;
       z-index: 10;
       position: relative;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      align-self: flex-start;
       flex-direction: column;
-   }
-
-   &__title-small  {
-      color: $pink100;
-      font-family: $gotham;
-      font-size: 3.2rem;
-      font-style: normal;
-      line-height: 130%; 
-
-      @media (max-width: $tablet) {
-         font-size: 2rem;
-      }
    }
 
    &__title-big {
@@ -98,7 +85,7 @@
       font-weight: 400;
       line-height: 90%; /* 144.9px */
       text-transform: uppercase;
-      margin-block: 3rem;
+      margin: 3rem 0 5.3rem;
 
       @media (max-width: $tablet) {
          font-size: 7.5rem;
@@ -106,15 +93,27 @@
       }
    }
 
+   &__sport-mos-link {
+    background-color: $redPink;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 1.4rem 1.7rem;
+    border-radius: 11px;
+    text-decoration: none;
+   }
+
    &__title-medium {
       color: $white;
       font-family: $gotham;
-      font-size: 4.6rem;
+      font-size: 3.1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: normal;
+      line-height: 1;
       text-transform: uppercase;
-      max-width: 95rem;
+      max-width: 55.6rem;
+      text-align: left;
 
       @media (max-width: $tablet) {
          font-size: 2rem;
@@ -169,7 +168,7 @@
       font-size: 2.4rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; 
+      line-height: 120%;
       top: 43%;
       right: 20%;
 

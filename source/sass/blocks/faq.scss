@@ -2,6 +2,24 @@
    position: relative;
    z-index: 2;
 
+   &__decor {
+    top: 0;
+    position: absolute;
+    max-width: unset;
+    user-select: none;
+    pointer-events: none;
+
+    &--left {
+      top: -32.7rem;
+      left: -52.8rem;
+    }
+
+    &--right {
+      top: -38.5rem;
+      right: -56rem;
+    }
+   }
+
    &__wrapper {
       padding-block: 0 13rem;
       position: relative;
@@ -22,18 +40,18 @@
       width: 100%;
       background-color: $grey;
       border-radius: 20px;
-      margin: 0 0 2rem;
-      // padding: 2.5rem;
+      margin: 0 0 2.3rem;
 
       @media (max-width: $tablet) {
          border-radius: 12px;
       }
 
       &.active {
-         background: linear-gradient(0deg, #FF57D8 -237%, #28293E 100%);
+         background: linear-gradient(0deg, #E32DA7 -237%, #28293E 100%);
+
       }
    }
-    
+
 
    &__toggler {
       font-family: $mossport;
@@ -51,8 +69,7 @@
       background: transparent;
       cursor: pointer;
       text-align: left;
-      // padding: 0;
-      padding: 2.5rem;
+      padding: 1.7rem 2.5rem 2rem;
 
       @media (max-width: $tablet) {
          padding: 1.8rem;
@@ -112,7 +129,7 @@
       line-height: 120%;
       // margin: 3rem 0 1.1rem;
       max-width: 108rem;
-      padding: 0 2.5rem 2.5rem 2.5rem;
+      padding: 0 2.5rem 3.1rem;
       margin-top: -1.2rem;
 
       @media (max-width: $tablet) {

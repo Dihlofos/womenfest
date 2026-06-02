@@ -33,7 +33,7 @@
       position: relative;
       display: flex;
       flex-direction: column;
-      padding-bottom: $section-spacing;
+      padding-bottom: 10.2rem;
       z-index: 10;
 
       @media (max-width: $tablet) {
@@ -187,7 +187,7 @@
    }
 
    &__item-time {
-      color: $pink200;
+      color: $pink;
       font-family: $gotham;
       font-size: 1.6rem;
       font-style: normal;
@@ -220,7 +220,7 @@
    }
 
    &__link {
-      background: $pink400;
+      background: $pink;
       text-decoration: none;
       cursor: pointer;
       transition: 0.3s ease;

@@ -44,7 +44,7 @@
       }
 
       .sport-mos-link {
-         background: $pink400;
+         background: $pink;
          width: fit-content;
        }
     }
@@ -52,7 +52,7 @@
 
   &__list {
     display: flex;
-    gap: 1.7rem;
+    gap: 2.3rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -85,7 +85,7 @@
    text-decoration: none;
 
     &:hover {
-      color: $pink400;
+      color: #F843BF;
       text-decoration: underline;
     }
 

@@ -1,32 +1,30 @@
 .footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  // justify-content: space-between;
+  gap: clamp(2rem, 5vw, 16.5rem);
+  // gap: 16.5rem;
+  border-radius: 40px 40px 0px 0px ;
+  background: linear-gradient(86deg, #F843BF -8.75%, #D81A90 36.98%, #721663 95.47%);
+  padding: 8rem 10rem 3.2rem 10rem;
+  overflow: hidden;
+
+  @media (max-width: $laptop) {
+      padding: 8rem 6rem 3.2rem 6rem;
+  }
+
+  @media (max-width: $tablet) {
+      border-radius: 20px 20px 0px 0px ;
+      flex-direction: column;
+      padding: 4.7rem 2rem 2rem 2rem;
+  }
 
    &.container {
       padding: 0;
    }
 
-   &__wrapper {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      // align-items: center;
-      // justify-content: space-between;
-      gap: clamp(2rem, 5vw, 16.5rem);
-      // gap: 16.5rem;
-      border-radius: 40px 40px 0px 0px ;
-      background: linear-gradient(86deg, #F843BF -8.75%, #D81A90 36.98%, #721663 95.47%);
-      padding: 8rem 10rem 3.2rem 10rem;
-      overflow: hidden;
-
-      @media (max-width: $laptop) {
-         padding: 8rem 6rem 3.2rem 6rem;
-      }
-
-      @media (max-width: $tablet) {
-         border-radius: 20px 20px 0px 0px ;
-         flex-direction: column;
-         padding: 4.7rem 2rem 2rem 2rem;
-      }
-   }
 
    &__vector-1 {
       width: 80rem;
@@ -153,13 +151,13 @@
       }
 
       a {
-         color: $pink100;
+         color: white;
          opacity: 0.8;
          font-family: $gotham;
          font-size: 1.6rem;
          font-style: normal;
          font-weight: 400;
-         line-height: 2rem; 
+         line-height: 2rem;
          text-decoration: underline;
          text-decoration-style: solid;
          text-decoration-skip-ink: none;
