@@ -1,12 +1,14 @@
 .zones {
    position: relative;
-   z-index: 2;
+   z-index: 12;
 
    &__decor {
     position: absolute;
     left: -75rem;
     top: -69.5rem;
     max-width: unset;
+    user-select: none;
+    pointer-events: none;
    }
 
    .text-black {
@@ -26,10 +28,14 @@
    &__wrapper {
       padding: 0 0 16rem;
       position: relative;
+      z-index: 12;
 
       @media (max-width: $tablet) {
         padding: 7.5rem 0;
+      }
 
+      @media (max-width: $mobile) {
+        padding: 4rem 0;
       }
    }
 
@@ -42,7 +48,7 @@
 
       @media (max-width: $tablet) {
          gap: 1rem;
-         padding-bottom: 2rem;
+         padding-bottom: 1.5rem;
          align-items: center;
       }
 

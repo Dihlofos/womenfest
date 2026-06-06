@@ -1,6 +1,7 @@
 .nav {
   display: flex;
 
+
   &--mobile {
     display: none;
   }
@@ -37,14 +38,19 @@
       height: 100%;
       background-color: $grey-light;
       z-index: 72;
-      padding: 1.5rem 2rem;
+      padding: 1.3rem 2rem 1.5rem;
 
       .nav.is-active & {
         display: block;
       }
 
       .sport-mos-link {
-         background: $pink;
+        margin-top: 0.7rem;
+        background-color: #d90273;
+        font-size: 1.4rem;
+        padding: 1.8rem 2rem;
+        border-radius: 11px;
+        text-decoration: none;
          width: fit-content;
        }
     }
@@ -60,7 +66,7 @@
     @media (max-width: $tablet) {
       margin: 0;
       flex-direction: column;
-      gap: 2.5rem;
+      gap: 1rem;
     }
   }
 

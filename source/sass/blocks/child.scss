@@ -1,13 +1,46 @@
 .child-zone {
   position: relative;
+  z-index: 10;
+
+
+  .container {
+    @media (max-width: $tablet) {
+      padding: 0;
+    }
+  }
+
+  .header-l.mobile {
+    @media (max-width: $mobile) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 2.2rem;
+        margin-top: -0.5rem;
+      }
+    }
+  }
 
    &__wrapper {
       padding: 0 0 14.8rem;
 
       @media (max-width: $tablet) {
-         padding: 4.5rem 0;
-       }
+        padding: 4.5rem 0 4.5rem 0;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      @media (max-width: $mobile) {
+        #men & {
+          padding-top: 2.8rem;
+        }
+      }
    }
+
+   @media (max-width: $tablet) {
+      padding: 0;
+    }
 
    &__decor {
     position: absolute;
@@ -23,14 +56,21 @@
 
 
       @media (max-width: $tablet) {
+        justify-content: flex-start;
          display: flex;
          flex-wrap: nowrap;
          overflow-x: auto;
          gap: 1.2rem;
-         scroll-snap-type: x mandatory;
+
 
          scrollbar-width: none;
          -ms-overflow-style: none;
+         padding: 0 2.4rem;
+       }
+
+       @media (max-width: $mobile) {
+        padding: 0;
+        gap: 1.6rem;
        }
 
    }
@@ -55,6 +95,9 @@
          flex: 0 0 22.4rem;
          scroll-snap-align: start;
          padding: 2rem;
+       }
+       @media (max-width: $mobile) {
+        border-radius: 20px;
        }
 
 

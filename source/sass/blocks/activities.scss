@@ -39,23 +39,12 @@
       @media (max-width: $tablet) {
          padding-bottom: 8.6rem;
       }
-   }
-
-   &__title-big {
-      display: block;
 
       @media (max-width: $mobile) {
-         display: none;
-       }
+        padding-bottom: 2.8rem;
+      }
    }
 
-   &__title-small {
-      display: none;
-
-      @media (max-width: $mobile) {
-         display: block;
-       }
-   }
 
    &__buttons {
       display: flex;

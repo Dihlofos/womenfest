@@ -84,6 +84,22 @@ img {
   align-items: center;
 }
 
+.desktop {
+  display: block;
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+
+  @media (max-width: $tablet) {
+    display: block;
+  }
+
+}
+
 .header-l {
    color: $white;
    text-align: center;
@@ -97,6 +113,6 @@ img {
 
    @media (max-width: $tablet) {
       font-size: 3.8rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
    }
 }

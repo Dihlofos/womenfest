@@ -1,12 +1,13 @@
 .info {
   padding: 14rem 0 6.2rem;
 
+  @media (max-width: $tablet) {
+    padding: 6rem 0 6.2rem;
+  }
 
-   &__wrapper {
-
-
-   }
-
+  @media (max-width: $mobile) {
+    padding: 4rem 0 4rem;
+  }
    &__top {
       display: flex;
       flex-direction: row;
@@ -21,10 +22,14 @@
       z-index: 10;
 
       @media (max-width: $tablet) {
-         flex-direction: column;
-         font-size: 1.5rem;
-         padding-bottom: 27.3rem;
-       }
+        flex-direction: column;
+        font-size: 1.5rem;
+        padding-bottom: 21.3rem;
+      }
+
+      @media (max-width: $mobile) {
+        padding: 0 1.4rem 7.3rem;
+      }
 
    }
 
@@ -41,12 +46,28 @@
     bottom: -10rem;
     left: 0;
     width: 100%;
+
+    @media (max-width: $tablet) {
+      bottom: -5rem;
+    }
    }
 
    &__clocks {
     position: absolute;
     bottom: -21rem;
     left: -5rem;
+
+    @media (max-width: $tablet) {
+      width: 31rem;
+      bottom: 13rem;
+      left: 0rem;
+    }
+
+    @media (max-width: $mobile) {
+      width: 13.9rem;
+      bottom: 13.6rem;
+      left: 0.3rem;
+    }
    }
 
    &__title {
@@ -143,7 +164,14 @@
       z-index: 5;
 
       @media (max-width: $tablet) {
-        width: 33.5rem;
+        width: 53.5rem;
+        bottom: -6rem;
+      }
+
+      @media (max-width: $mobile) {
+        width: 35rem;
+        bottom: -5.7rem;
+        right: 0.9rem;
       }
     }
 
@@ -154,22 +182,15 @@
  //highlights
 
  .info-highlights {
-      position: relative;
+    position: relative;
 
-      // &__image {
-      //    position: absolute;
-      //    width: 85rem;
-      //    bottom: 10rem;
-      //    right: 50%;
-      //    transform: translateX(50%);
-      //    z-index: 5;
+    @media (max-width: $tablet) {
+      margin: 0 2.4rem;
+    }
 
-      //    @media (max-width: $tablet) {
-      //       width: 38.5rem;
-      //       bottom: auto;
-      //       top: -27rem;
-      //    }
-      //  }
+    @media (max-width: $tablet) {
+      margin: 0 2rem;
+    }
 
    &__wrapper {
       position: relative;
@@ -192,6 +213,7 @@
       @media (max-width: $mobile) {
          display: grid;
          grid-template-columns: 1fr 1fr;
+         padding: 2rem 3.5rem 2.2rem 2rem;
       }
 
       &::before {
@@ -224,6 +246,10 @@
          gap: 1.2rem;
       }
 
+      @media (max-width: $mobile) {
+        gap: 0.9rem;
+      }
+
       svg {
          @media (max-width: $tablet) {
             width: 2.6rem;
@@ -246,6 +272,10 @@
       @media (max-width: $tablet) {
          font-size: 2.2rem;
       }
+
+      @media (max-width: $mobile) {
+         margin: 0;
+      }
    }
 
    &__text {
@@ -259,5 +289,14 @@
    &__descr {
     font-size: 2rem;
     line-height: 1.2;
+
+    @media (max-width: $tablet) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: $mobile) {
+      font-size: 10px;
+      line-height: 1.2;
+    }
    }
 }
