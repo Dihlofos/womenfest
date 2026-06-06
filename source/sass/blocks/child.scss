@@ -47,6 +47,8 @@
     right: -100.2rem;
     top: -50rem;
     max-width: unset;
+    user-select: none;
+    pointer-events: none;
    }
 
    &__list {
