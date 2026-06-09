@@ -2,6 +2,8 @@
    position: relative;
 
    .header-l {
+    position: relative;
+    z-index: 12;
     @media (max-width: $mobile) {
       margin-bottom: 1rem;
     }
