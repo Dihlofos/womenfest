@@ -31,12 +31,19 @@
       const targetScene = btn.dataset.scene;
       const activitiesSection = document.querySelector('#activities');
 
+      if (targetScene === 'partners') {
+        const partnersSection = document.querySelector('#partners');
+        partnersSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        return;
+      }
+
       if (activitiesSection) {
         activitiesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         setTimeout(() => {
           showScene(targetScene);
-        }, 400); 
+        }, 400);
       }
     });
   });
