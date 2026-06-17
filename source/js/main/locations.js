@@ -32,16 +32,18 @@
     {
       name: "Поляна по центральной аллее",
       index: 6,
+      link: 'man',
       coords: [55.735136, 37.608657].reverse(),
     },
     {
       name: "Поляна по центральной аллее",
       index: 7,
+      link: 'child',
       coords: [55.735151, 37.608885].reverse(),
     },
     {
       name: "Газон за Новой Третьяковкой",
-      partners: true,
+      link: 'partners',
       index: 8,
       coords: [55.734020, 37.606097].reverse(),
     },
@@ -156,8 +158,8 @@ async function initMap() {
     document.querySelector(".js-map"),
     {
       location: {
-        center: [55.734329, 37.606728].reverse(),
-        zoom: vw > 767 ? 16 : 13,
+        center: [55.7355, 37.6070].reverse(),
+        zoom: vw > 767 ? 17 : 13,
       },
     },
     [new YMapDefaultSchemeLayer({}), new YMapDefaultFeaturesLayer({})]

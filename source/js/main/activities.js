@@ -31,8 +31,8 @@
       const targetScene = btn.dataset.scene;
       const activitiesSection = document.querySelector('#activities');
 
-      if (targetScene === 'partners') {
-        const partnersSection = document.querySelector('#partners');
+      if (targetScene === 'partners' || targetScene === 'child' || targetScene === 'men') {
+        const partnersSection = document.querySelector(`#${targetScene}`);
         partnersSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         return;
