@@ -163,6 +163,7 @@
       bottom: -19rem;
       right: 2rem;
       z-index: 5;
+      user-select: none;
 
       @media (max-width: $tablet) {
         width: 53.5rem;
