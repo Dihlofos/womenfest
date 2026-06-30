@@ -5,8 +5,9 @@
    transform: translateX(-50%);
    z-index: 1000;
    max-width: 48.6rem;
-   background-color: $white;
+   background-color: $black;
    padding: 1.6rem 2rem;
+   border-radius: 20px;
 
    &.hidden {
      display: none;
@@ -22,8 +23,8 @@
       align-items: center;
      border: none;
      position: absolute;
-     top: 3.4rem;
-     right: 3.4rem;
+     top: 2.4rem;
+     right: 2.4rem;
      padding: 0;
      cursor: pointer;
 
