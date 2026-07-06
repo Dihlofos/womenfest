@@ -121,6 +121,12 @@
 
       &.stretching {
          background-image: url('../img/zones/stretching-bg.png');
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+              height: 2rem;
+          }
+         }
       }
 
       &.tashe {
@@ -182,6 +188,12 @@
             margin-top: -3rem;
             margin-bottom: -3rem;
          }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+              height: 5rem;
+          }
+         }
       }
 
       &.limoni {
@@ -189,6 +201,12 @@
 
          .zones__logo {
             height: 2.5rem;
+         }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 2.2rem;
+          }
          }
       }
 
@@ -213,13 +231,27 @@
             margin-top: -3rem;
             margin-bottom: -3rem;
          }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            width: 5rem;
+            margin-top: -2rem;
+            margin-bottom: -2rem;
+          }
+         }
       }
 
       &.amijoli {
          background-image: url('../img/zones/face-fit-bg.png');
 
          .zones__logo {
-            height: 3.3rem;
+            height: 3.8rem;
+         }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 3rem;
+          }
          }
       }
       &.faceroom {
@@ -231,10 +263,24 @@
             margin-bottom: -12rem;
             margin-left: -1.1rem;
          }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 12.8rem;
+            margin-top: -10rem;
+            margin-bottom: -10rem;
+          }
+         }
       }
 
       &.rexona {
          background-image: url('../img/zones/rexona-bg.png');
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 4rem;
+          }
+         }
       }
 
       &.nrav {
@@ -243,6 +289,12 @@
          .zones__logo {
             height: 3.2rem;
          }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 2.5rem;
+          }
+         }
       }
 
       &.repeat {
@@ -250,6 +302,12 @@
 
          .zones__logo {
             height: 3.2rem;
+         }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 2.5rem;
+          }
          }
       }
 
@@ -261,6 +319,15 @@
             margin-top: -10rem;
             margin-bottom: -8rem;
             margin-left: -4rem;
+         }
+
+         @media (max-width: $tablet) {
+          .zones__logo {
+            height: 7rem;
+            margin-top: -8rem;
+            margin-bottom: -7rem;
+            margin-left: -3rem;
+          }
          }
       }
 
@@ -349,16 +416,6 @@
       }
 
 
-   }
-
-   &__logo {
-      @media (max-width: $tablet) {
-         max-height: 2rem;
-       }
-
-       @media (max-width: $tablet) {
-         max-height: 1.7rem;
-       }
    }
 
 
