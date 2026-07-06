@@ -86,10 +86,10 @@
 
   if (!upButton) return;
 
-  const mobileBreakpoint = 768; 
+  const mobileBreakpoint = 768;
   const defaultBottom = 30;
   const raisedBottom = 379;
-  const footerBuffer = 400; 
+  const footerBuffer = 400;
 
   window.addEventListener("scroll", () => {
     const scrollY = window.pageYOffset;
@@ -104,11 +104,7 @@
     }
 
     if (window.innerWidth <= mobileBreakpoint) {
-      if (distanceToBottom < footerBuffer) {
-        upButton.style.bottom = `${raisedBottom}px`;
-      } else {
-        upButton.style.bottom = `${defaultBottom}px`;
-      }
+      upButton.style.bottom = `${defaultBottom}px`;
     } else {
       upButton.style.bottom = "";
     }
