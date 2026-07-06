@@ -187,11 +187,13 @@
          }
       }
 
-      &.krygina {
-         background-image: url('../img/zones/krygina-bg.png');
+      &.feel-moment {
+         background-image: url('../img/zones/hidehere-bg.png');
 
          .zones__logo {
-            height: 3.8rem;
+            height: 6.8rem;
+            margin-top: -3rem;
+            margin-bottom: -3rem;
          }
       }
 
@@ -211,8 +213,8 @@
          background-image: url('../img/zones/face-fit-bg.png');
       }
 
-      &.twinkle {
-         background-image: url('../img/zones/twinkle-bg.png');
+      &.nudi {
+         background-image: url('../img/zones/nudi-bg.png');
       }
 
       &.makeup {
