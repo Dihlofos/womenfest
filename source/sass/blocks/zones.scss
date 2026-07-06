@@ -3,6 +3,10 @@
    z-index: 12;
    padding-top: 12rem;
 
+   @media (max-width: $tablet) {
+    padding-top: 0;
+   }
+
    &__decor {
     position: absolute;
     left: -75rem;
