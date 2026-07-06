@@ -168,7 +168,9 @@
          background-image: url('../img/zones/hidehere-bg.png');
 
          .zones__logo {
-            height: 3.8rem;
+            height: 5.8rem;
+            margin-top: -3rem;
+            margin-bottom: -3rem;
          }
       }
 
@@ -186,7 +188,7 @@
          background-image: url('../img/zones/any-bg.png');
 
          .zones__logo {
-            height: 3rem;
+            height: 2.5rem;
          }
       }
 
@@ -204,13 +206,20 @@
 
       &.nudi {
          background-image: url('../img/zones/nudi-bg.png');
+
+         .zones__logo {
+            height: 9.8rem;
+            width: 6rem;
+            margin-top: -3rem;
+            margin-bottom: -3rem;
+         }
       }
 
       &.amijoli {
          background-image: url('../img/zones/face-fit-bg.png');
 
          .zones__logo {
-            height: 3.8rem;
+            height: 3.3rem;
          }
       }
       &.faceroom {
