@@ -1,6 +1,7 @@
 .zones {
    position: relative;
    z-index: 12;
+   padding-top: 12rem;
 
    &__decor {
     position: absolute;
@@ -122,31 +123,15 @@
          background-image: url('../img/zones/stretching-bg.png');
       }
 
-      &.hidehere {
-         background-image: url('../img/zones/hidehere-bg.png');
-
-         .zones__logo {
-            height: 2.3rem;
-         }
-      }
-
-      &.inneme {
-         background-image: url('../img/zones/inneme-bg.png');
+      &.tashe {
+         background-image: url('../img/zones/eazyway-bg.png');
 
          .zones__logo {
             height: 3.3rem;
          }
       }
 
-      &.unod {
-         background-image: url('../img/zones/inneme-bg.png');
-
-         .zones__logo {
-            height: 3.3rem;
-         }
-      }
-
-      &.basique {
+      &.jcos {
          background-image: url('../img/zones/basique-bg.png');
 
          .zones__logo {
@@ -179,8 +164,8 @@
          background-image: url('../img/zones/eazyway-bg.png');
       }
 
-      &.dolgoletie {
-         background-image: url('../img/zones/dolgoletie-bg.png');
+      &.kidzania {
+         background-image: url('../img/zones/hidehere-bg.png');
 
          .zones__logo {
             height: 3.8rem;
@@ -197,11 +182,11 @@
          }
       }
 
-      &.ollin {
-         background-image: url('../img/zones/ollin-bg.png');
+      &.limoni {
+         background-image: url('../img/zones/any-bg.png');
 
          .zones__logo {
-            height: 3.8rem;
+            height: 3rem;
          }
       }
 
@@ -209,46 +194,64 @@
          background-image: url('../img/zones/polubvi-bg.png');
       }
 
-      &.face-fit {
-         background-image: url('../img/zones/face-fit-bg.png');
+      &.farengeit {
+         background-image: url('../img/zones/under-you-bg.png');
+
+         .zones__logo {
+            height: 3.6rem;
+         }
       }
 
       &.nudi {
          background-image: url('../img/zones/nudi-bg.png');
       }
 
-      &.makeup {
-         background-image: url('../img/zones/makeup-bg.png');
+      &.amijoli {
+         background-image: url('../img/zones/face-fit-bg.png');
 
          .zones__logo {
             height: 3.8rem;
          }
       }
-      &.bioniq {
+      &.faceroom {
          background-image: url('../img/zones/bioniq-bg.png');
+
+         .zones__logo {
+            height: 15.8rem;
+            margin-top: -12rem;
+            margin-bottom: -12rem;
+            margin-left: -1.1rem;
+         }
       }
 
       &.rexona {
          background-image: url('../img/zones/rexona-bg.png');
       }
 
-      &.zasport {
-         background-image: url('../img/zones/zasport-bg.png');
-      }
-
-      &.under-you {
-         background-image: url('../img/zones/under-you-bg.png');
+      &.nrav {
+         background-image: url('../img/zones/eazyway-bg.png');
 
          .zones__logo {
             height: 3.2rem;
          }
       }
 
-      &.any-buddy {
-         background-image: url('../img/zones/any-bg.png');
+      &.repeat {
+         background-image: url('../img/zones/refeel-bg.png');
 
          .zones__logo {
-            height: 6.7rem;
+            height: 3.2rem;
+         }
+      }
+
+      &.selfclick {
+         background-image: url('../img/zones/dobro-bg.png');
+
+         .zones__logo {
+            height: 10.7rem;
+            margin-top: -10rem;
+            margin-bottom: -8rem;
+            margin-left: -4rem;
          }
       }
 
