@@ -337,6 +337,14 @@
 
       &.refeel {
          background-image: url('../img/zones/refeel-bg.png');
+
+         .zones__logo {
+          height: 6.8rem;
+
+          @media (max-width: $tablet) {
+            height: 4rem;
+          }
+         }
       }
    }
 
@@ -453,7 +461,7 @@
       display: flex;
       flex-direction: column;
       gap: 4.5rem;
-      max-width: 45.7rem;
+      max-width: 90rem;
 
       @media (max-width: $tablet) {
          gap: 1.2rem;
