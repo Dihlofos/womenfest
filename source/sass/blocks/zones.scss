@@ -482,7 +482,7 @@
 
        @media (max-width: $mobile) {
           display: -webkit-box;
-         -webkit-line-clamp: 6;
+         -webkit-line-clamp: 8;
          -webkit-box-orient: vertical;
          overflow: hidden;
          text-overflow: ellipsis;
