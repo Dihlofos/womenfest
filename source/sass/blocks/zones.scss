@@ -348,12 +348,22 @@
       }
 
       &.run {
-         background-image: url('../img/zones/run-bg.png');
+         // background-image: url('../img/zones/run-bg.png');
+         background: linear-gradient(90deg,rgba(247, 172, 214, 1) 0%, rgba(247, 172, 214, 1) 60%, rgba(0, 0, 0, 0) 100%);
+         background-color: #26273C;
+
+         @media (max-width: $mobile) {
+          &.active {
+            background: none;
+            background-color: rgba(247, 172, 214, 1);
+
+          }
+
+         }
 
          .zones__logo {
-          height: 6.8rem;
-          margin-top: -1rem;
-          margin-bottom: -1rem;
+          height: 6.64rem;
+          width: auto;
 
           @media (max-width: $tablet) {
             height: 4rem;
