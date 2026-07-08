@@ -346,6 +346,20 @@
           }
          }
       }
+
+      &.run {
+         background-image: url('../img/zones/run-bg.png');
+
+         .zones__logo {
+          height: 6.8rem;
+          margin-top: -1rem;
+          margin-bottom: -1rem;
+
+          @media (max-width: $tablet) {
+            height: 4rem;
+          }
+         }
+      }
    }
 
 
