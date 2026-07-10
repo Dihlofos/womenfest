@@ -77,8 +77,9 @@
 
   @media (max-width: $mobile) {
     flex-direction: column;
-    align-items: center;
     gap: 1.2rem;
+    max-width: 40rem;
+    margin: 0 auto;
   }
 }
 
@@ -94,7 +95,8 @@
   img {
     display: block;
     max-width: 17rem;
-    height: 5rem;
+    height: 7rem;
+    object-fit: contain;
     width: auto;
     transition: all 0.3s ease;
   }
@@ -110,9 +112,10 @@
   @media (max-width: $tablet) {
     padding: 1.2rem 2.4rem;
 
+
     img {
-      max-width: 14rem;
-      height: 4rem;
+      max-width: 16rem;
+      height: 6rem;
     }
 
     &.vertical img {
@@ -130,6 +133,7 @@
       flex-direction: row;
       justify-content: center;
       gap: 2.4rem;
+
    }
 
    &__partners-item {
