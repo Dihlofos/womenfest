@@ -46,7 +46,7 @@ gulp.task("css", function () {
     .pipe(sass())
     .pipe(postcss([autoprefixer()]))
     .pipe(csso())
-    .pipe(rename("style.min6.css"))
+    .pipe(rename("style.min7.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
     .pipe(server.stream());

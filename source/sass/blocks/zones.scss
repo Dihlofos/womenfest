@@ -149,6 +149,14 @@
          }
       }
 
+      &.seventeen {
+         background-image: url('../img/zones/basique-bg.png');
+
+         .zones__logo {
+            height: 4rem;
+         }
+      }
+
       &.loccitane {
          background-image: url('../img/zones/loccitane-bg.png');
 
