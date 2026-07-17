@@ -141,6 +141,19 @@
          }
       }
 
+      &.green-mama {
+         //background-image: url('../img/zones/stretching-bg.png');
+         background: linear-gradient(90deg,rgba(247, 172, 214, 1) 0%, rgba(247, 172, 214, 1) 60%, rgba(0, 0, 0, 0) 100%);
+         background-color: #26273C;
+
+         .zones__logo {
+            height: 16rem;
+            margin-top: -6rem;
+            margin-bottom: -6rem;
+            margin-left: -1.5rem;
+         }
+      }
+
       &.jcos {
          background-image: url('../img/zones/basique-bg.png');
 
